@@ -29,6 +29,13 @@ struct uthread_tcb
 
 typedef struct uthread_tcb uthread_tcb;
 
+void free_thread(uthread_tcb *thread)
+{
+	printf("Collecting thread\n");
+	uthread_ctx_destroy_stack(thread->stack_pointer);
+	free(thread);
+}
+
 // Use global state for the thread library (a bit like a singleton?)
 queue_t thread_queue;
 uthread_tcb *executing_thread;
@@ -65,6 +72,12 @@ int uthread_run(bool preempt, uthread_func_t func, void *arg)
 	executing_thread = next_thread;
 	uthread_ctx_switch(&idle_thread->uctx, &next_thread->uctx);
 
+	// Free idle thread
+	free_thread(idle_thread);
+	free_thread(executing_thread);
+
+	printf("Finished all thread execution\n");
+
 	return 0;
 }
 
@@ -95,27 +108,40 @@ void uthread_yield(void)
 
 	uthread_tcb *next_thread;
 
-	// printf("Get next thread\n");
-	// grab next thread in the queue
-	int status = queue_dequeue(thread_queue, (void **)&next_thread);
-
-	// No more threads in the queue, return to idle
-	if (status == -1)
+	while (true)
 	{
-		// printf("No more threads, exit\n");
-		return 0;
+		// printf("Get next thread\n");
+		// grab next thread in the queue
+		int status = queue_dequeue(thread_queue, (void **)&next_thread);
+
+		// No more threads in the queue, return to idle
+		if (status == -1)
+		{
+			printf("No more threads, exit\n");
+			uthread_ctx_switch(&executing_thread->uctx, &idle_thread->uctx);
+		}
+
+		// Zombie thread, collect
+		if (next_thread->state == EXITED)
+		{
+			free_thread(next_thread);
+		}
+		else
+		{
+			// ready thread, move on to context switching to it
+			break;
+		}
 	}
 
 	next_thread->state = RUNNING;
 
+	// Requeue thread we're yielding from
+	// however, if it's a zombie thread, make sure to leave the state untouched for collection later
 	if (executing_thread->state == RUNNING)
 	{
-		// printf("Requeuing yielded thread\n");
 		executing_thread->state = READY;
-
-		// requeue the thread we're yielding
-		queue_enqueue(thread_queue, executing_thread);
 	}
+	queue_enqueue(thread_queue, executing_thread);
 
 	// Make sure to update executing_thread before we context switch
 	uthread_tcb *previous_thread = executing_thread;
@@ -124,19 +150,13 @@ void uthread_yield(void)
 	// switch to the next thread to run
 	uthread_ctx_switch(&previous_thread->uctx, &next_thread->uctx);
 
-	if (previous_thread->state == EXITED)
-	{
-		printf("Zombie thread, collecting\n");
-		uthread_ctx_destroy_stack(executing_thread->stack_pointer);
-		free(executing_thread);
-	}
-
 	// printf("Finished yielding\n");
 }
 
 /* TODO Phase 2 */
 void uthread_exit(void)
 {
+	printf("Exited\n");
 	// mark as zombie for later collection
 	uthread_current()->state = EXITED;
 
