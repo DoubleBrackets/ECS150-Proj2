@@ -21,7 +21,6 @@ typedef enum thread_state thread_state;
 
 struct uthread_tcb
 {
-	/* TODO Phase 2 */
 	void *stack_pointer;
 	thread_state state;
 	uthread_ctx_t uctx;
@@ -31,7 +30,7 @@ typedef struct uthread_tcb uthread_tcb;
 
 void free_thread(uthread_tcb *thread)
 {
-	printf("Collecting thread\n");
+	// printf("Collecting thread\n");
 	uthread_ctx_destroy_stack(thread->stack_pointer);
 	free(thread);
 }
@@ -52,7 +51,6 @@ void debug_print_tcb(queue_t q, void *thread)
 	printf("Thread: State %d\n", ((uthread_tcb *)thread)->state);
 }
 
-/* TODO Phase 2 */
 int uthread_run(bool preempt, uthread_func_t func, void *arg)
 {
 	thread_queue = queue_create();
@@ -60,47 +58,83 @@ int uthread_run(bool preempt, uthread_func_t func, void *arg)
 	// register current thread as the "idle"
 	idle_thread = malloc(sizeof(uthread_tcb));
 
+	if (idle_thread == NULL)
+	{
+		return -1;
+	}
+
 	// Create the initial thread
-	uthread_create(func, arg);
+	if (uthread_create(func, arg) == -1)
+	{
+		free(idle_thread);
+		return -1;
+	}
 
 	uthread_tcb *next_thread;
 
 	// Context switch to the init thread
 	// Special case since we're switching out of idle thread, which doesn't go in the queue
 	int status = queue_dequeue(thread_queue, (void **)&next_thread);
+	if (status == -1)
+	{
+		free_thread(next_thread);
+		free(idle_thread);
+	}
+
 	next_thread->state = RUNNING;
 	executing_thread = next_thread;
+
+	// Start execution of threads
 	uthread_ctx_switch(&idle_thread->uctx, &next_thread->uctx);
 
-	// Free idle thread
-	free_thread(idle_thread);
+	// Free remaining resources
+	free(idle_thread);
 	free_thread(executing_thread);
-
-	printf("Finished all thread execution\n");
+	queue_destroy(thread_queue);
 
 	return 0;
 }
 
-/* TODO Phase 2 */
 int uthread_create(uthread_func_t func, void *arg)
 {
 	// create new thread tcb
 	uthread_tcb *new_tcb = malloc(sizeof(uthread_tcb));
+
+	if (new_tcb == NULL)
+	{
+		return -1;
+	}
+
 	new_tcb->stack_pointer = uthread_ctx_alloc_stack();
+
+	if (new_tcb->stack_pointer == NULL)
+	{
+		// only need to free the tcb, since stack failed to malloc
+		free(new_tcb);
+		return -1;
+	}
+
 	new_tcb->state = READY;
 
 	// queue the new thread
-	queue_enqueue(thread_queue, new_tcb);
+	if (queue_enqueue(thread_queue, new_tcb) == -1)
+	{
+		free_thread(new_tcb);
+		return -1;
+	}
 
 	// initialize user thread context
-	uthread_ctx_init(&new_tcb->uctx, new_tcb->stack_pointer, func, arg);
+	if (uthread_ctx_init(&new_tcb->uctx, new_tcb->stack_pointer, func, arg) == -1)
+	{
+		free_thread(new_tcb);
+		return -1;
+	}
+
+	return 0;
 }
 
-/* TODO Phase 2 */
 void uthread_yield(void)
 {
-	// printf("Thread yielding\n");
-
 	// Now we schedule the next thread
 	// Debug
 	// printf("The thread queue has %d threads\n", queue_length(thread_queue));
@@ -110,16 +144,13 @@ void uthread_yield(void)
 
 	while (true)
 	{
-		// printf("Get next thread\n");
-		// grab next thread in the queue
-		int status = queue_dequeue(thread_queue, (void **)&next_thread);
-
 		// No more threads in the queue, return to idle
-		if (status == -1)
+		if (queue_length(thread_queue) == 0)
 		{
-			printf("No more threads, exit\n");
 			uthread_ctx_switch(&executing_thread->uctx, &idle_thread->uctx);
 		}
+
+		int status = queue_dequeue(thread_queue, (void **)&next_thread);
 
 		// Zombie thread, collect
 		if (next_thread->state == EXITED)
@@ -128,7 +159,7 @@ void uthread_yield(void)
 		}
 		else
 		{
-			// ready thread, move on to context switching to it
+			// found a ready thread, move on to context switching to it
 			break;
 		}
 	}
@@ -136,7 +167,7 @@ void uthread_yield(void)
 	next_thread->state = RUNNING;
 
 	// Requeue thread we're yielding from
-	// however, if it's a zombie thread, make sure to leave the state untouched for collection later
+	// If it's a zombie thread, make sure to leave the state untouched for collection later
 	if (executing_thread->state == RUNNING)
 	{
 		executing_thread->state = READY;
@@ -149,15 +180,11 @@ void uthread_yield(void)
 
 	// switch to the next thread to run
 	uthread_ctx_switch(&previous_thread->uctx, &next_thread->uctx);
-
-	// printf("Finished yielding\n");
 }
 
-/* TODO Phase 2 */
 void uthread_exit(void)
 {
-	printf("Exited\n");
-	// mark as zombie for later collection
+	//  mark as zombie for later collection
 	uthread_current()->state = EXITED;
 
 	// yield for now
