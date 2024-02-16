@@ -13,7 +13,8 @@ void uthread_ctx_switch(uthread_ctx_t *prev, uthread_ctx_t *next)
 	 * swapcontext() saves the current context in structure pointer by @prev
 	 * and actives the context pointed by @next
 	 */
-	if (swapcontext(prev, next)) {
+	if (swapcontext(prev, next))
+	{
 		perror("swapcontext");
 		exit(1);
 	}
@@ -47,7 +48,7 @@ static void uthread_ctx_bootstrap(uthread_func_t func, void *arg)
 }
 
 int uthread_ctx_init(uthread_ctx_t *uctx, void *top_of_stack,
-		     uthread_func_t func, void *arg)
+					 uthread_func_t func, void *arg)
 {
 	/*
 	 * Initialize the passed context @uctx to the currently active context
@@ -68,9 +69,8 @@ int uthread_ctx_init(uthread_ctx_t *uctx, void *top_of_stack,
 	 * - when called, function uthread_ctx_bootstrap() will receive two
 	 *   arguments: @func and @arg
 	 */
-	makecontext(uctx, (void (*)(void)) uthread_ctx_bootstrap,
-		    2, func, arg);
+	makecontext(uctx, (void (*)(void))uthread_ctx_bootstrap,
+				2, func, arg);
 
 	return 0;
 }
-

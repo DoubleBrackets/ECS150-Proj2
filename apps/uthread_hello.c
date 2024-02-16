@@ -19,7 +19,9 @@ void hello(void *arg)
 
 int main(void)
 {
-	uthread_run(false, hello, NULL);
+	printf("Before!\n");
+	int status = uthread_run(false, hello, NULL);
+	printf("After!\n %d", status);
 
 	return 0;
 }

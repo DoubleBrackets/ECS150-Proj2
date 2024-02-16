@@ -32,7 +32,7 @@ CFLAGS	:= -Wall -Wextra ## -Werror
 CFLAGS	+= -pipe
 ## Debug flag
 ifneq ($(D),1)
-CFLAGS	+= -O2
+CFLAGS	+= -Og
 else
 CFLAGS	+= -g
 endif
