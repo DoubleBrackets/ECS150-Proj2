@@ -95,26 +95,23 @@ void test_delete(void)
 
 	TEST_ASSERT(queue_delete(q, &data2) == 0);
 
+	int *output;
 	// Test when middle element is deleted
-	TEST_ASSERT(q->head->next_node->data == &data3);
-	TEST_ASSERT(q->tail->prev_node->data == &data1);
-	TEST_ASSERT(q->length == 2);
+	/* 	TEST_ASSERT(q->head->next_node->data == &data3);
+		TEST_ASSERT(q->tail->prev_node->data == &data1); */
+	TEST_ASSERT(queue_length(q) == 2);
 
 	queue_delete(q, &data3);
 
 	// Test when there is only one element left
-	TEST_ASSERT(q->head->data == &data1);
-	TEST_ASSERT(q->tail->data == &data1);
-	TEST_ASSERT(q->head->prev_node == NULL);
-	TEST_ASSERT(q->head->next_node == NULL);
-	TEST_ASSERT(q->tail->prev_node == NULL);
-	TEST_ASSERT(q->tail->next_node == NULL);
-	TEST_ASSERT(q->length == 1);
+	/* 	TEST_ASSERT(q->head->data == &data1);
+		TEST_ASSERT(q->tail->data == &data1); */
+	TEST_ASSERT(queue_length(q) == 1);
 
 	// Test when all elements have been deleted
 	queue_delete(q, &data1);
-	TEST_ASSERT(q->head == NULL);
-	TEST_ASSERT(q->length == 0);
+	TEST_ASSERT(queue_dequeue(q, &output) == -1);
+	TEST_ASSERT(queue_length(q) == 0);
 
 	// Null parameters
 	TEST_ASSERT(queue_delete(NULL, &data1) == -1);

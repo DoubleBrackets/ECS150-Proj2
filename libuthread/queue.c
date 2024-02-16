@@ -4,6 +4,23 @@
 
 #include "queue.h"
 
+typedef struct node *node_t;
+
+typedef struct node
+{
+	node_t next_node;
+	node_t prev_node;
+	void *data;
+} node;
+
+typedef struct queue
+{
+	/* TODO Phase 1 */
+	unsigned int length;
+	node_t head;
+	node_t tail;
+} queue;
+
 queue_t queue_create(void)
 {
 	/* TODO Phase 1 */
@@ -116,7 +133,7 @@ int queue_delete(queue_t queue, void *data)
 				queue->head = current->next_node;
 			}
 
-			if(queue->tail == current)
+			if (queue->tail == current)
 			{
 				queue->tail = current->prev_node;
 			}
