@@ -15,7 +15,6 @@ typedef struct semaphore semaphore;
 
 sem_t sem_create(size_t count)
 {
-	/* TODO Phase 3 */
 	sem_t new_sem = malloc(sizeof(semaphore));
 
 	if (new_sem == NULL)
@@ -29,8 +28,6 @@ sem_t sem_create(size_t count)
 		free(new_sem);
 		return NULL;
 	}
-
-	// printf("semaphore queue created");
 
 	new_sem->count = count;
 
