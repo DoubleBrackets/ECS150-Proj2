@@ -16,7 +16,7 @@ static void thread2(void *arg)
 {
 	(void)arg;
 
-	for (int i = 0; i < 100; i++)
+	for (int i = 0; i < 5; i++)
 	{
 		printf("thread2\n");
 		uthread_yield();
@@ -32,7 +32,7 @@ static void thread1(void *arg)
 
 	while (true)
 	{
-		// hang
+		// you've activated my trap card yugi, prepare to have your process blocked by my while loop of greed!
 	}
 
 	printf("thread1\n");
@@ -41,7 +41,7 @@ static void thread1(void *arg)
 int main(void)
 {
 
-	uthread_run(false, thread1, NULL);
+	uthread_run(true, thread1, NULL);
 
 	return 0;
 }

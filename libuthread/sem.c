@@ -30,6 +30,8 @@ sem_t sem_create(size_t count)
 		return NULL;
 	}
 
+	// printf("semaphore queue created");
+
 	new_sem->count = count;
 
 	return new_sem;
@@ -57,7 +59,6 @@ int sem_down(sem_t sem)
 
 	if (sem->count == 0)
 	{
-		// printf("blocked\n");
 		queue_enqueue(sem->wait_queue, uthread_current());
 		uthread_block();
 	}
@@ -65,7 +66,6 @@ int sem_down(sem_t sem)
 	{
 		sem->count--;
 	}
-	// printf("down to %d \n", sem->count);
 	return 0;
 }
 
@@ -78,11 +78,9 @@ int sem_up(sem_t sem)
 
 	sem->count++;
 
-	// printf("up to %d \n", sem->count);
-
 	// unblock next in queue
 	// make sure to decrement to prevent stealing before the scheduler runs
-	struct uthread_tcb *next_thread;
+	struct uthread_tcb *next_thread = NULL;
 
 	queue_dequeue(sem->wait_queue, (void **)&next_thread);
 

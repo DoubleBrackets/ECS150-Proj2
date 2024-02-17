@@ -89,17 +89,17 @@ int uthread_run(bool preempt, uthread_func_t func, void *arg)
 	executing_thread = next_thread;
 
 	// preemption
-	// preempt_start(preempt);
+	preempt_start(preempt);
+
+	preempt_disable();
 
 	// Start execution of threads
-	printf("Before %d\n", next_thread == NULL);
 	uthread_ctx_switch(&idle_thread->uctx, &next_thread->uctx);
-	printf("After\n");
 
 	// Free remaining resources
 	free_globals();
 
-	// preempt_stop();
+	preempt_stop();
 
 	return 0;
 }
@@ -216,14 +216,12 @@ void uthread_exit(void)
 	uthread_yield();
 }
 
-/* TODO Phase 3 */
 void uthread_block(void)
 {
 	executing_thread->state = BLOCKED;
 	uthread_yield();
 }
 
-/* TODO Phase 3 */
 void uthread_unblock(struct uthread_tcb *uthread)
 {
 	uthread->state = READY;

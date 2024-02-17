@@ -18,13 +18,15 @@
 
 #define MAXPRIME 1000
 
-struct channel {
+struct channel
+{
 	int value;
 	sem_t produce;
 	sem_t consume;
 };
 
-struct filter {
+struct filter
+{
 	struct channel *left;
 	struct channel *right;
 	unsigned int prime;
@@ -36,10 +38,11 @@ static unsigned int max = MAXPRIME;
 /* Producer thread: produces all numbers, from 2 to max */
 static void source(void *arg)
 {
-	struct channel *c = (struct channel*) arg;
+	struct channel *c = (struct channel *)arg;
 	size_t i;
 
-	for (i = 2; i <= max; i++) {
+	for (i = 2; i <= max; i++)
+	{
 		c->value = i;
 		sem_up(c->consume);
 		sem_down(c->produce);
@@ -54,14 +57,16 @@ static void source(void *arg)
 /* Filter thread */
 static void filter(void *arg)
 {
-	struct filter *f = (struct filter*) arg;
+	struct filter *f = (struct filter *)arg;
 	int value;
 
-	while (1) {
+	while (1)
+	{
 		sem_down(f->left->consume);
 		value = f->left->value;
 		sem_up(f->left->produce);
-		if ((value == -1) || (value % f->prime != 0)) {
+		if ((value == -1) || (value % f->prime != 0))
+		{
 			f->right->value = value;
 			sem_up(f->right->consume);
 			sem_down(f->right->produce);
@@ -92,7 +97,8 @@ static void sink(void *arg)
 
 	uthread_create(source, p);
 
-	while (1) {
+	while (1)
+	{
 		struct filter *f;
 
 		sem_down(p->consume);
@@ -131,7 +137,8 @@ static unsigned int get_argv(char *argv)
 {
 	long int ret = strtol(argv, NULL, 0);
 
-	if (ret == LONG_MIN || ret == LONG_MAX) {
+	if (ret == LONG_MIN || ret == LONG_MAX)
+	{
 		perror("strtol");
 		exit(1);
 	}
