@@ -68,16 +68,16 @@ void test_dequeue(void)
 
 	for (size_t i = 0; i < sizeof(data) / sizeof(data[0]); i++)
 	{
-		TEST_ASSERT(queue_dequeue(q, &output) == 0);
+		TEST_ASSERT(queue_dequeue(q, (void **)&output) == 0);
 		TEST_ASSERT(output == &data[i]);
 	}
 
 	// Empty queue
 	queue_t empty = queue_create();
-	TEST_ASSERT(queue_dequeue(empty, &output) == -1);
+	TEST_ASSERT(queue_dequeue(empty, (void **)&output) == -1);
 
 	// Null parameters
-	TEST_ASSERT(queue_dequeue(NULL, &output) == -1);
+	TEST_ASSERT(queue_dequeue(NULL, (void **)&output) == -1);
 	TEST_ASSERT(queue_dequeue(q, NULL) == -1);
 }
 
@@ -97,20 +97,16 @@ void test_delete(void)
 
 	int *output;
 	// Test when middle element is deleted
-	/* 	TEST_ASSERT(q->head->next_node->data == &data3);
-		TEST_ASSERT(q->tail->prev_node->data == &data1); */
 	TEST_ASSERT(queue_length(q) == 2);
 
 	queue_delete(q, &data3);
 
 	// Test when there is only one element left
-	/* 	TEST_ASSERT(q->head->data == &data1);
-		TEST_ASSERT(q->tail->data == &data1); */
 	TEST_ASSERT(queue_length(q) == 1);
 
 	// Test when all elements have been deleted
 	queue_delete(q, &data1);
-	TEST_ASSERT(queue_dequeue(q, &output) == -1);
+	TEST_ASSERT(queue_dequeue(q, (void **)&output) == -1);
 	TEST_ASSERT(queue_length(q) == 0);
 
 	// Null parameters

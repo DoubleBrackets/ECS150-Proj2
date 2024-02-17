@@ -1,20 +1,34 @@
 # Target library
 lib := libuthread.a
 
+#Object library
+objs := queue.o uthread.o context.o preempt.o sem.o
+
 CC := gcc
-CFLAGS := -Wall -Wextra # -Werror
+CFLAGS := -Wall -Wextra -Werror -MMD
 CFLAGS += -g
+
+ifneq ($(V), 1)
+Q = @
+endif
 
 all: $(lib)
 
+# Dependency tracking
+deps := $(patsubst %.o,%.d,$(objs))
+-include $(deps)
+
 ## Create library from object files
-$(lib): queue.o uthread.o context.o preempt.o sem.o
-	ar rcs $@ $^
+$(lib): $(objs)
+	@echo "AR RCS $@"
+	$(Q)ar rcs $@ $^
 
 %.o: %.c
-	$(CC) $(CFLAGS) -c -o $@ $<
+	@echo "CC $@"
+	$(Q)$(CC) $(CFLAGS) -c -o $@ $<
 
 clean:
-	rm -f $(lib) queue.o uthread.o context.o preempt.o sem.o
+	@echo "CLEAN"
+	$(Q)rm -f $(lib) $(objs) $(deps)
 
 

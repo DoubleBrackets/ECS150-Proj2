@@ -1,8 +1,8 @@
 /*
- * Semaphore simple test
+ * Preemption simple test
  *
- * Test the synchronization of three threads, by having them print messages in
- * a certain order.
+ * Test preemption by having a thread never yield
+ *
  */
 
 #include <limits.h>
@@ -16,10 +16,9 @@ static void thread2(void *arg)
 {
 	(void)arg;
 
-	for (int i = 0; i < 5; i++)
+	for (int i = 0; i < 10; i++)
 	{
 		printf("thread2\n");
-		uthread_yield();
 	}
 	printf("done\n");
 }
@@ -32,10 +31,8 @@ static void thread1(void *arg)
 
 	while (true)
 	{
-		// you've activated my trap card yugi, prepare to have your process blocked by my while loop of greed!
+		// hang
 	}
-
-	printf("thread1\n");
 }
 
 int main(void)

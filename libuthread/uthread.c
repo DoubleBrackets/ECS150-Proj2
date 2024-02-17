@@ -32,7 +32,6 @@ typedef struct uthread_tcb uthread_tcb;
 
 void free_thread(uthread_tcb *thread)
 {
-	// printf("Collecting thread\n");
 	uthread_ctx_destroy_stack(thread->stack_pointer);
 	free(thread);
 }
@@ -91,8 +90,6 @@ int uthread_run(bool preempt, uthread_func_t func, void *arg)
 	// preemption
 	preempt_start(preempt);
 
-	preempt_disable();
-
 	// Start execution of threads
 	uthread_ctx_switch(&idle_thread->uctx, &next_thread->uctx);
 
@@ -127,6 +124,8 @@ int uthread_create(uthread_func_t func, void *arg)
 	id_count++;
 	new_tcb->id = id_count;
 
+	preempt_disable();
+
 	// queue the new thread
 	if (queue_enqueue(ready_queue, new_tcb) == -1)
 	{
@@ -141,15 +140,14 @@ int uthread_create(uthread_func_t func, void *arg)
 		return -1;
 	}
 
+	preempt_enable();
+
 	return 0;
 }
 
 void uthread_yield(void)
 {
-	// Now we schedule the next thread
-	// Debug
-	// printf("The thread queue has %d threads\n", queue_length(ready_queue));
-	// queue_iterate(ready_queue, debug_print_tcb);
+	preempt_disable();
 
 	uthread_tcb *next_thread;
 
@@ -170,12 +168,10 @@ void uthread_yield(void)
 		// Zombie thread, collect
 		if (next_thread->state == EXITED)
 		{
-			// printf("Collecting %d\n", next_thread->id);
 			free_thread(next_thread);
 		}
 		else if (next_thread->state == BLOCKED)
 		{
-			// printf("Skipping blocked %d\n", next_thread->id);
 			// cycle to back of the queue
 			queue_enqueue(ready_queue, next_thread);
 		}
@@ -203,15 +199,12 @@ void uthread_yield(void)
 	uthread_tcb *previous_thread = executing_thread;
 	executing_thread = next_thread;
 
-	// printf("Switching to %d\n", next_thread->id);
-
 	// switch to the next thread to run
 	uthread_ctx_switch(&previous_thread->uctx, &next_thread->uctx);
 }
 
 void uthread_exit(void)
 {
-	// printf("Exiting %d\n", executing_thread->id);
 	executing_thread->state = EXITED;
 	uthread_yield();
 }
