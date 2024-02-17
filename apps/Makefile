@@ -2,7 +2,11 @@
 programs := \
 	queue_tester.x \
 	uthread_hello.x \
-	uthread_yield.x
+	uthread_yield.x \
+	sem_buffer.x \
+	sem_count.x \
+	sem_prime.x \
+	sem_simple.x 
 
 # User-level thread library
 UTHREADLIB := libuthread
@@ -71,6 +75,12 @@ clean: FORCE
 	@echo "CLEAN	$(CUR_PWD)"
 	$(Q)$(MAKE) V=$(V) D=$(D) -C $(UTHREADPATH) clean
 	$(Q)rm -rf $(objs) $(deps) $(programs)
+
+test:
+# valgrind --leak-check=yes ./uthread_yield.x
+# valgrind --leak-check=yes ./uthread_hello.x
+# ./queue_tester.x
+	valgrind --leak-check=yes ./sem_simple.x
 
 # Keep object files around
 .PRECIOUS: %.o

@@ -1,0 +1,2227 @@
+Producer wants to put 16 items into buffer...
+Producer is putting 0 into buffer
+Producer is putting 1 into buffer
+Producer is putting 2 into buffer
+Producer is putting 3 into buffer
+Producer is putting 4 into buffer
+Producer is putting 5 into buffer
+Producer is putting 6 into buffer
+Producer is putting 7 into buffer
+Producer is putting 8 into buffer
+Producer is putting 9 into buffer
+Producer is putting 10 into buffer
+Producer is putting 11 into buffer
+Producer is putting 12 into buffer
+Producer is putting 13 into buffer
+Producer is putting 14 into buffer
+Producer is putting 15 into buffer
+Producer wants to put 8 items into buffer...
+Consumer wants to get 2 items out of buffer...
+Consumer is taking 0 out of buffer
+Consumer is taking 1 out of buffer
+Consumer wants to get 12 items out of buffer...
+Consumer is taking 2 out of buffer
+Producer is putting 16 into buffer
+Consumer is taking 3 out of buffer
+Producer is putting 17 into buffer
+Consumer is taking 4 out of buffer
+Producer is putting 18 into buffer
+Consumer is taking 5 out of buffer
+Producer is putting 19 into buffer
+Consumer is taking 6 out of buffer
+Producer is putting 20 into buffer
+Consumer is taking 7 out of buffer
+Producer is putting 21 into buffer
+Consumer is taking 8 out of buffer
+Producer is putting 22 into buffer
+Consumer is taking 9 out of buffer
+Producer is putting 23 into buffer
+Producer wants to put 15 items into buffer...
+Consumer is taking 10 out of buffer
+Producer is putting 24 into buffer
+Consumer is taking 11 out of buffer
+Producer is putting 25 into buffer
+Consumer is taking 12 out of buffer
+Producer is putting 26 into buffer
+Consumer is taking 13 out of buffer
+Producer is putting 27 into buffer
+Consumer wants to get 5 items out of buffer...
+Consumer is taking 14 out of buffer
+Producer is putting 28 into buffer
+Consumer is taking 15 out of buffer
+Producer is putting 29 into buffer
+Producer is putting 30 into buffer
+Consumer is taking 16 out of buffer
+Producer is putting 31 into buffer
+Consumer is taking 17 out of buffer
+Producer is putting 32 into buffer
+Consumer is taking 18 out of buffer
+Consumer wants to get 16 items out of buffer...
+Producer is putting 33 into buffer
+Consumer is taking 19 out of buffer
+Producer is putting 34 into buffer
+Consumer is taking 20 out of buffer
+Producer is putting 35 into buffer
+Consumer is taking 21 out of buffer
+Producer is putting 36 into buffer
+Consumer is taking 22 out of buffer
+Producer is putting 37 into buffer
+Consumer is taking 23 out of buffer
+Producer is putting 38 into buffer
+Producer wants to put 4 items into buffer...
+Consumer is taking 24 out of buffer
+Producer is putting 39 into buffer
+Consumer is taking 25 out of buffer
+Producer is putting 40 into buffer
+Consumer is taking 26 out of buffer
+Producer is putting 41 into buffer
+Consumer is taking 27 out of buffer
+Producer is putting 42 into buffer
+Producer wants to put 4 items into buffer...
+Consumer is taking 28 out of buffer
+Producer is putting 43 into buffer
+Consumer is taking 29 out of buffer
+Producer is putting 44 into buffer
+Consumer is taking 30 out of buffer
+Producer is putting 45 into buffer
+Consumer is taking 31 out of buffer
+Producer is putting 46 into buffer
+Producer wants to put 7 items into buffer...
+Consumer is taking 32 out of buffer
+Producer is putting 47 into buffer
+Consumer is taking 33 out of buffer
+Producer is putting 48 into buffer
+Consumer is taking 34 out of buffer
+Consumer wants to get 2 items out of buffer...
+Producer is putting 49 into buffer
+Consumer is taking 35 out of buffer
+Producer is putting 50 into buffer
+Consumer is taking 36 out of buffer
+Consumer wants to get 16 items out of buffer...
+Producer is putting 51 into buffer
+Consumer is taking 37 out of buffer
+Producer is putting 52 into buffer
+Consumer is taking 38 out of buffer
+Producer is putting 53 into buffer
+Producer wants to put 13 items into buffer...
+Consumer is taking 39 out of buffer
+Producer is putting 54 into buffer
+Consumer is taking 40 out of buffer
+Producer is putting 55 into buffer
+Consumer is taking 41 out of buffer
+Producer is putting 56 into buffer
+Consumer is taking 42 out of buffer
+Producer is putting 57 into buffer
+Consumer is taking 43 out of buffer
+Producer is putting 58 into buffer
+Consumer is taking 44 out of buffer
+Producer is putting 59 into buffer
+Consumer is taking 45 out of buffer
+Producer is putting 60 into buffer
+Consumer is taking 46 out of buffer
+Producer is putting 61 into buffer
+Consumer is taking 47 out of buffer
+Producer is putting 62 into buffer
+Consumer is taking 48 out of buffer
+Producer is putting 63 into buffer
+Consumer is taking 49 out of buffer
+Producer is putting 64 into buffer
+Consumer is taking 50 out of buffer
+Producer is putting 65 into buffer
+Consumer is taking 51 out of buffer
+Producer is putting 66 into buffer
+Producer wants to put 1 items into buffer...
+Consumer is taking 52 out of buffer
+Consumer wants to get 7 items out of buffer...
+Producer is putting 67 into buffer
+Producer wants to put 11 items into buffer...
+Consumer is taking 53 out of buffer
+Producer is putting 68 into buffer
+Consumer is taking 54 out of buffer
+Producer is putting 69 into buffer
+Consumer is taking 55 out of buffer
+Producer is putting 70 into buffer
+Consumer is taking 56 out of buffer
+Producer is putting 71 into buffer
+Consumer is taking 57 out of buffer
+Producer is putting 72 into buffer
+Consumer is taking 58 out of buffer
+Producer is putting 73 into buffer
+Consumer is taking 59 out of buffer
+Consumer wants to get 8 items out of buffer...
+Producer is putting 74 into buffer
+Consumer is taking 60 out of buffer
+Producer is putting 75 into buffer
+Consumer is taking 61 out of buffer
+Producer is putting 76 into buffer
+Consumer is taking 62 out of buffer
+Producer is putting 77 into buffer
+Consumer is taking 63 out of buffer
+Producer is putting 78 into buffer
+Producer wants to put 3 items into buffer...
+Consumer is taking 64 out of buffer
+Producer is putting 79 into buffer
+Consumer is taking 65 out of buffer
+Producer is putting 80 into buffer
+Consumer is taking 66 out of buffer
+Producer is putting 81 into buffer
+Producer wants to put 15 items into buffer...
+Consumer is taking 67 out of buffer
+Consumer wants to get 8 items out of buffer...
+Producer is putting 82 into buffer
+Consumer is taking 68 out of buffer
+Producer is putting 83 into buffer
+Consumer is taking 69 out of buffer
+Producer is putting 84 into buffer
+Consumer is taking 70 out of buffer
+Producer is putting 85 into buffer
+Consumer is taking 71 out of buffer
+Producer is putting 86 into buffer
+Consumer is taking 72 out of buffer
+Producer is putting 87 into buffer
+Consumer is taking 73 out of buffer
+Producer is putting 88 into buffer
+Consumer is taking 74 out of buffer
+Producer is putting 89 into buffer
+Consumer is taking 75 out of buffer
+Consumer wants to get 9 items out of buffer...
+Producer is putting 90 into buffer
+Consumer is taking 76 out of buffer
+Producer is putting 91 into buffer
+Consumer is taking 77 out of buffer
+Producer is putting 92 into buffer
+Consumer is taking 78 out of buffer
+Producer is putting 93 into buffer
+Consumer is taking 79 out of buffer
+Producer is putting 94 into buffer
+Consumer is taking 80 out of buffer
+Producer is putting 95 into buffer
+Consumer is taking 81 out of buffer
+Producer is putting 96 into buffer
+Producer wants to put 13 items into buffer...
+Consumer is taking 82 out of buffer
+Producer is putting 97 into buffer
+Consumer is taking 83 out of buffer
+Producer is putting 98 into buffer
+Consumer is taking 84 out of buffer
+Consumer wants to get 11 items out of buffer...
+Producer is putting 99 into buffer
+Consumer is taking 85 out of buffer
+Producer is putting 100 into buffer
+Consumer is taking 86 out of buffer
+Producer is putting 101 into buffer
+Consumer is taking 87 out of buffer
+Producer is putting 102 into buffer
+Consumer is taking 88 out of buffer
+Producer is putting 103 into buffer
+Consumer is taking 89 out of buffer
+Producer is putting 104 into buffer
+Consumer is taking 90 out of buffer
+Producer is putting 105 into buffer
+Consumer is taking 91 out of buffer
+Producer is putting 106 into buffer
+Consumer is taking 92 out of buffer
+Producer is putting 107 into buffer
+Consumer is taking 93 out of buffer
+Producer is putting 108 into buffer
+Consumer is taking 94 out of buffer
+Producer is putting 109 into buffer
+Producer wants to put 3 items into buffer...
+Consumer is taking 95 out of buffer
+Consumer wants to get 12 items out of buffer...
+Producer is putting 110 into buffer
+Consumer is taking 96 out of buffer
+Producer is putting 111 into buffer
+Consumer is taking 97 out of buffer
+Producer is putting 112 into buffer
+Producer wants to put 2 items into buffer...
+Consumer is taking 98 out of buffer
+Producer is putting 113 into buffer
+Consumer is taking 99 out of buffer
+Producer is putting 114 into buffer
+Producer wants to put 1 items into buffer...
+Consumer is taking 100 out of buffer
+Producer is putting 115 into buffer
+Producer wants to put 13 items into buffer...
+Consumer is taking 101 out of buffer
+Producer is putting 116 into buffer
+Consumer is taking 102 out of buffer
+Producer is putting 117 into buffer
+Consumer is taking 103 out of buffer
+Producer is putting 118 into buffer
+Consumer is taking 104 out of buffer
+Producer is putting 119 into buffer
+Consumer is taking 105 out of buffer
+Producer is putting 120 into buffer
+Consumer is taking 106 out of buffer
+Producer is putting 121 into buffer
+Consumer is taking 107 out of buffer
+Consumer wants to get 2 items out of buffer...
+Producer is putting 122 into buffer
+Consumer is taking 108 out of buffer
+Producer is putting 123 into buffer
+Consumer is taking 109 out of buffer
+Consumer wants to get 5 items out of buffer...
+Producer is putting 124 into buffer
+Consumer is taking 110 out of buffer
+Producer is putting 125 into buffer
+Consumer is taking 111 out of buffer
+Producer is putting 126 into buffer
+Consumer is taking 112 out of buffer
+Producer is putting 127 into buffer
+Consumer is taking 113 out of buffer
+Producer is putting 128 into buffer
+Producer wants to put 14 items into buffer...
+Consumer is taking 114 out of buffer
+Consumer wants to get 8 items out of buffer...
+Producer is putting 129 into buffer
+Consumer is taking 115 out of buffer
+Producer is putting 130 into buffer
+Consumer is taking 116 out of buffer
+Producer is putting 131 into buffer
+Consumer is taking 117 out of buffer
+Producer is putting 132 into buffer
+Consumer is taking 118 out of buffer
+Producer is putting 133 into buffer
+Consumer is taking 119 out of buffer
+Producer is putting 134 into buffer
+Consumer is taking 120 out of buffer
+Producer is putting 135 into buffer
+Consumer is taking 121 out of buffer
+Producer is putting 136 into buffer
+Consumer is taking 122 out of buffer
+Consumer wants to get 12 items out of buffer...
+Producer is putting 137 into buffer
+Consumer is taking 123 out of buffer
+Producer is putting 138 into buffer
+Consumer is taking 124 out of buffer
+Producer is putting 139 into buffer
+Consumer is taking 125 out of buffer
+Producer is putting 140 into buffer
+Consumer is taking 126 out of buffer
+Producer is putting 141 into buffer
+Consumer is taking 127 out of buffer
+Producer is putting 142 into buffer
+Producer wants to put 13 items into buffer...
+Consumer is taking 128 out of buffer
+Producer is putting 143 into buffer
+Consumer is taking 129 out of buffer
+Producer is putting 144 into buffer
+Consumer is taking 130 out of buffer
+Producer is putting 145 into buffer
+Consumer is taking 131 out of buffer
+Producer is putting 146 into buffer
+Consumer is taking 132 out of buffer
+Producer is putting 147 into buffer
+Consumer is taking 133 out of buffer
+Producer is putting 148 into buffer
+Consumer is taking 134 out of buffer
+Consumer wants to get 10 items out of buffer...
+Producer is putting 149 into buffer
+Consumer is taking 135 out of buffer
+Producer is putting 150 into buffer
+Consumer is taking 136 out of buffer
+Producer is putting 151 into buffer
+Consumer is taking 137 out of buffer
+Producer is putting 152 into buffer
+Consumer is taking 138 out of buffer
+Producer is putting 153 into buffer
+Consumer is taking 139 out of buffer
+Producer is putting 154 into buffer
+Consumer is taking 140 out of buffer
+Producer is putting 155 into buffer
+Producer wants to put 8 items into buffer...
+Consumer is taking 141 out of buffer
+Producer is putting 156 into buffer
+Consumer is taking 142 out of buffer
+Producer is putting 157 into buffer
+Consumer is taking 143 out of buffer
+Producer is putting 158 into buffer
+Consumer is taking 144 out of buffer
+Consumer wants to get 4 items out of buffer...
+Producer is putting 159 into buffer
+Consumer is taking 145 out of buffer
+Producer is putting 160 into buffer
+Consumer is taking 146 out of buffer
+Producer is putting 161 into buffer
+Consumer is taking 147 out of buffer
+Producer is putting 162 into buffer
+Consumer is taking 148 out of buffer
+Consumer wants to get 15 items out of buffer...
+Producer is putting 163 into buffer
+Producer wants to put 4 items into buffer...
+Consumer is taking 149 out of buffer
+Producer is putting 164 into buffer
+Consumer is taking 150 out of buffer
+Producer is putting 165 into buffer
+Consumer is taking 151 out of buffer
+Producer is putting 166 into buffer
+Consumer is taking 152 out of buffer
+Producer is putting 167 into buffer
+Producer wants to put 6 items into buffer...
+Consumer is taking 153 out of buffer
+Producer is putting 168 into buffer
+Consumer is taking 154 out of buffer
+Producer is putting 169 into buffer
+Consumer is taking 155 out of buffer
+Producer is putting 170 into buffer
+Consumer is taking 156 out of buffer
+Producer is putting 171 into buffer
+Consumer is taking 157 out of buffer
+Producer is putting 172 into buffer
+Consumer is taking 158 out of buffer
+Producer is putting 173 into buffer
+Producer wants to put 11 items into buffer...
+Consumer is taking 159 out of buffer
+Producer is putting 174 into buffer
+Consumer is taking 160 out of buffer
+Producer is putting 175 into buffer
+Consumer is taking 161 out of buffer
+Producer is putting 176 into buffer
+Consumer is taking 162 out of buffer
+Producer is putting 177 into buffer
+Consumer is taking 163 out of buffer
+Consumer wants to get 10 items out of buffer...
+Producer is putting 178 into buffer
+Consumer is taking 164 out of buffer
+Producer is putting 179 into buffer
+Consumer is taking 165 out of buffer
+Producer is putting 180 into buffer
+Consumer is taking 166 out of buffer
+Producer is putting 181 into buffer
+Consumer is taking 167 out of buffer
+Producer is putting 182 into buffer
+Consumer is taking 168 out of buffer
+Producer is putting 183 into buffer
+Consumer is taking 169 out of buffer
+Producer is putting 184 into buffer
+Producer wants to put 16 items into buffer...
+Consumer is taking 170 out of buffer
+Producer is putting 185 into buffer
+Consumer is taking 171 out of buffer
+Producer is putting 186 into buffer
+Consumer is taking 172 out of buffer
+Producer is putting 187 into buffer
+Consumer is taking 173 out of buffer
+Consumer wants to get 16 items out of buffer...
+Producer is putting 188 into buffer
+Consumer is taking 174 out of buffer
+Producer is putting 189 into buffer
+Consumer is taking 175 out of buffer
+Producer is putting 190 into buffer
+Consumer is taking 176 out of buffer
+Producer is putting 191 into buffer
+Consumer is taking 177 out of buffer
+Producer is putting 192 into buffer
+Consumer is taking 178 out of buffer
+Producer is putting 193 into buffer
+Consumer is taking 179 out of buffer
+Producer is putting 194 into buffer
+Consumer is taking 180 out of buffer
+Producer is putting 195 into buffer
+Consumer is taking 181 out of buffer
+Producer is putting 196 into buffer
+Consumer is taking 182 out of buffer
+Producer is putting 197 into buffer
+Consumer is taking 183 out of buffer
+Producer is putting 198 into buffer
+Consumer is taking 184 out of buffer
+Producer is putting 199 into buffer
+Consumer is taking 185 out of buffer
+Producer is putting 200 into buffer
+Producer wants to put 10 items into buffer...
+Consumer is taking 186 out of buffer
+Producer is putting 201 into buffer
+Consumer is taking 187 out of buffer
+Producer is putting 202 into buffer
+Consumer is taking 188 out of buffer
+Producer is putting 203 into buffer
+Consumer is taking 189 out of buffer
+Consumer wants to get 4 items out of buffer...
+Producer is putting 204 into buffer
+Consumer is taking 190 out of buffer
+Producer is putting 205 into buffer
+Consumer is taking 191 out of buffer
+Producer is putting 206 into buffer
+Consumer is taking 192 out of buffer
+Producer is putting 207 into buffer
+Consumer is taking 193 out of buffer
+Consumer wants to get 14 items out of buffer...
+Producer is putting 208 into buffer
+Consumer is taking 194 out of buffer
+Producer is putting 209 into buffer
+Consumer is taking 195 out of buffer
+Producer is putting 210 into buffer
+Producer wants to put 16 items into buffer...
+Consumer is taking 196 out of buffer
+Producer is putting 211 into buffer
+Consumer is taking 197 out of buffer
+Producer is putting 212 into buffer
+Consumer is taking 198 out of buffer
+Producer is putting 213 into buffer
+Consumer is taking 199 out of buffer
+Producer is putting 214 into buffer
+Consumer is taking 200 out of buffer
+Producer is putting 215 into buffer
+Consumer is taking 201 out of buffer
+Producer is putting 216 into buffer
+Consumer is taking 202 out of buffer
+Producer is putting 217 into buffer
+Consumer is taking 203 out of buffer
+Producer is putting 218 into buffer
+Consumer is taking 204 out of buffer
+Producer is putting 219 into buffer
+Consumer is taking 205 out of buffer
+Producer is putting 220 into buffer
+Consumer is taking 206 out of buffer
+Producer is putting 221 into buffer
+Consumer is taking 207 out of buffer
+Consumer wants to get 7 items out of buffer...
+Producer is putting 222 into buffer
+Consumer is taking 208 out of buffer
+Producer is putting 223 into buffer
+Consumer is taking 209 out of buffer
+Producer is putting 224 into buffer
+Consumer is taking 210 out of buffer
+Producer is putting 225 into buffer
+Consumer is taking 211 out of buffer
+Producer is putting 226 into buffer
+Producer wants to put 1 items into buffer...
+Consumer is taking 212 out of buffer
+Producer is putting 227 into buffer
+Producer wants to put 4 items into buffer...
+Consumer is taking 213 out of buffer
+Producer is putting 228 into buffer
+Consumer is taking 214 out of buffer
+Consumer wants to get 7 items out of buffer...
+Producer is putting 229 into buffer
+Consumer is taking 215 out of buffer
+Producer is putting 230 into buffer
+Consumer is taking 216 out of buffer
+Producer is putting 231 into buffer
+Producer wants to put 16 items into buffer...
+Consumer is taking 217 out of buffer
+Producer is putting 232 into buffer
+Consumer is taking 218 out of buffer
+Producer is putting 233 into buffer
+Consumer is taking 219 out of buffer
+Producer is putting 234 into buffer
+Consumer is taking 220 out of buffer
+Producer is putting 235 into buffer
+Consumer is taking 221 out of buffer
+Consumer wants to get 10 items out of buffer...
+Producer is putting 236 into buffer
+Consumer is taking 222 out of buffer
+Producer is putting 237 into buffer
+Consumer is taking 223 out of buffer
+Producer is putting 238 into buffer
+Consumer is taking 224 out of buffer
+Producer is putting 239 into buffer
+Consumer is taking 225 out of buffer
+Producer is putting 240 into buffer
+Consumer is taking 226 out of buffer
+Producer is putting 241 into buffer
+Consumer is taking 227 out of buffer
+Producer is putting 242 into buffer
+Consumer is taking 228 out of buffer
+Producer is putting 243 into buffer
+Consumer is taking 229 out of buffer
+Producer is putting 244 into buffer
+Consumer is taking 230 out of buffer
+Producer is putting 245 into buffer
+Consumer is taking 231 out of buffer
+Consumer wants to get 16 items out of buffer...
+Producer is putting 246 into buffer
+Consumer is taking 232 out of buffer
+Producer is putting 247 into buffer
+Producer wants to put 1 items into buffer...
+Consumer is taking 233 out of buffer
+Producer is putting 248 into buffer
+Producer wants to put 4 items into buffer...
+Consumer is taking 234 out of buffer
+Producer is putting 249 into buffer
+Consumer is taking 235 out of buffer
+Producer is putting 250 into buffer
+Consumer is taking 236 out of buffer
+Producer is putting 251 into buffer
+Consumer is taking 237 out of buffer
+Producer is putting 252 into buffer
+Producer wants to put 16 items into buffer...
+Consumer is taking 238 out of buffer
+Producer is putting 253 into buffer
+Consumer is taking 239 out of buffer
+Producer is putting 254 into buffer
+Consumer is taking 240 out of buffer
+Producer is putting 255 into buffer
+Consumer is taking 241 out of buffer
+Producer is putting 256 into buffer
+Consumer is taking 242 out of buffer
+Producer is putting 257 into buffer
+Consumer is taking 243 out of buffer
+Producer is putting 258 into buffer
+Consumer is taking 244 out of buffer
+Producer is putting 259 into buffer
+Consumer is taking 245 out of buffer
+Producer is putting 260 into buffer
+Consumer is taking 246 out of buffer
+Producer is putting 261 into buffer
+Consumer is taking 247 out of buffer
+Consumer wants to get 1 items out of buffer...
+Producer is putting 262 into buffer
+Consumer is taking 248 out of buffer
+Consumer wants to get 16 items out of buffer...
+Producer is putting 263 into buffer
+Consumer is taking 249 out of buffer
+Producer is putting 264 into buffer
+Consumer is taking 250 out of buffer
+Producer is putting 265 into buffer
+Consumer is taking 251 out of buffer
+Producer is putting 266 into buffer
+Consumer is taking 252 out of buffer
+Producer is putting 267 into buffer
+Consumer is taking 253 out of buffer
+Producer is putting 268 into buffer
+Producer wants to put 5 items into buffer...
+Consumer is taking 254 out of buffer
+Producer is putting 269 into buffer
+Consumer is taking 255 out of buffer
+Producer is putting 270 into buffer
+Consumer is taking 256 out of buffer
+Producer is putting 271 into buffer
+Consumer is taking 257 out of buffer
+Producer is putting 272 into buffer
+Consumer is taking 258 out of buffer
+Producer is putting 273 into buffer
+Producer wants to put 2 items into buffer...
+Consumer is taking 259 out of buffer
+Producer is putting 274 into buffer
+Consumer is taking 260 out of buffer
+Producer is putting 275 into buffer
+Producer wants to put 4 items into buffer...
+Consumer is taking 261 out of buffer
+Producer is putting 276 into buffer
+Consumer is taking 262 out of buffer
+Producer is putting 277 into buffer
+Consumer is taking 263 out of buffer
+Producer is putting 278 into buffer
+Consumer is taking 264 out of buffer
+Consumer wants to get 6 items out of buffer...
+Producer is putting 279 into buffer
+Producer wants to put 6 items into buffer...
+Consumer is taking 265 out of buffer
+Producer is putting 280 into buffer
+Consumer is taking 266 out of buffer
+Producer is putting 281 into buffer
+Consumer is taking 267 out of buffer
+Producer is putting 282 into buffer
+Consumer is taking 268 out of buffer
+Producer is putting 283 into buffer
+Consumer is taking 269 out of buffer
+Producer is putting 284 into buffer
+Consumer is taking 270 out of buffer
+Consumer wants to get 10 items out of buffer...
+Producer is putting 285 into buffer
+Producer wants to put 7 items into buffer...
+Consumer is taking 271 out of buffer
+Producer is putting 286 into buffer
+Consumer is taking 272 out of buffer
+Producer is putting 287 into buffer
+Consumer is taking 273 out of buffer
+Producer is putting 288 into buffer
+Consumer is taking 274 out of buffer
+Producer is putting 289 into buffer
+Consumer is taking 275 out of buffer
+Producer is putting 290 into buffer
+Consumer is taking 276 out of buffer
+Producer is putting 291 into buffer
+Consumer is taking 277 out of buffer
+Producer is putting 292 into buffer
+Producer wants to put 4 items into buffer...
+Consumer is taking 278 out of buffer
+Producer is putting 293 into buffer
+Consumer is taking 279 out of buffer
+Producer is putting 294 into buffer
+Consumer is taking 280 out of buffer
+Consumer wants to get 14 items out of buffer...
+Producer is putting 295 into buffer
+Consumer is taking 281 out of buffer
+Producer is putting 296 into buffer
+Producer wants to put 8 items into buffer...
+Consumer is taking 282 out of buffer
+Producer is putting 297 into buffer
+Consumer is taking 283 out of buffer
+Producer is putting 298 into buffer
+Consumer is taking 284 out of buffer
+Producer is putting 299 into buffer
+Consumer is taking 285 out of buffer
+Producer is putting 300 into buffer
+Consumer is taking 286 out of buffer
+Producer is putting 301 into buffer
+Consumer is taking 287 out of buffer
+Producer is putting 302 into buffer
+Consumer is taking 288 out of buffer
+Producer is putting 303 into buffer
+Consumer is taking 289 out of buffer
+Producer is putting 304 into buffer
+Producer wants to put 3 items into buffer...
+Consumer is taking 290 out of buffer
+Producer is putting 305 into buffer
+Consumer is taking 291 out of buffer
+Producer is putting 306 into buffer
+Consumer is taking 292 out of buffer
+Producer is putting 307 into buffer
+Producer wants to put 10 items into buffer...
+Consumer is taking 293 out of buffer
+Producer is putting 308 into buffer
+Consumer is taking 294 out of buffer
+Consumer wants to get 9 items out of buffer...
+Producer is putting 309 into buffer
+Consumer is taking 295 out of buffer
+Producer is putting 310 into buffer
+Consumer is taking 296 out of buffer
+Producer is putting 311 into buffer
+Consumer is taking 297 out of buffer
+Producer is putting 312 into buffer
+Consumer is taking 298 out of buffer
+Producer is putting 313 into buffer
+Consumer is taking 299 out of buffer
+Producer is putting 314 into buffer
+Consumer is taking 300 out of buffer
+Producer is putting 315 into buffer
+Consumer is taking 301 out of buffer
+Producer is putting 316 into buffer
+Consumer is taking 302 out of buffer
+Producer is putting 317 into buffer
+Producer wants to put 2 items into buffer...
+Consumer is taking 303 out of buffer
+Consumer wants to get 4 items out of buffer...
+Producer is putting 318 into buffer
+Consumer is taking 304 out of buffer
+Producer is putting 319 into buffer
+Producer wants to put 8 items into buffer...
+Consumer is taking 305 out of buffer
+Producer is putting 320 into buffer
+Consumer is taking 306 out of buffer
+Producer is putting 321 into buffer
+Consumer is taking 307 out of buffer
+Consumer wants to get 7 items out of buffer...
+Producer is putting 322 into buffer
+Consumer is taking 308 out of buffer
+Producer is putting 323 into buffer
+Consumer is taking 309 out of buffer
+Producer is putting 324 into buffer
+Consumer is taking 310 out of buffer
+Producer is putting 325 into buffer
+Consumer is taking 311 out of buffer
+Producer is putting 326 into buffer
+Consumer is taking 312 out of buffer
+Producer is putting 327 into buffer
+Producer wants to put 16 items into buffer...
+Consumer is taking 313 out of buffer
+Producer is putting 328 into buffer
+Consumer is taking 314 out of buffer
+Consumer wants to get 6 items out of buffer...
+Producer is putting 329 into buffer
+Consumer is taking 315 out of buffer
+Producer is putting 330 into buffer
+Consumer is taking 316 out of buffer
+Producer is putting 331 into buffer
+Consumer is taking 317 out of buffer
+Producer is putting 332 into buffer
+Consumer is taking 318 out of buffer
+Producer is putting 333 into buffer
+Consumer is taking 319 out of buffer
+Producer is putting 334 into buffer
+Consumer is taking 320 out of buffer
+Consumer wants to get 4 items out of buffer...
+Producer is putting 335 into buffer
+Consumer is taking 321 out of buffer
+Producer is putting 336 into buffer
+Consumer is taking 322 out of buffer
+Producer is putting 337 into buffer
+Consumer is taking 323 out of buffer
+Producer is putting 338 into buffer
+Consumer is taking 324 out of buffer
+Consumer wants to get 3 items out of buffer...
+Producer is putting 339 into buffer
+Consumer is taking 325 out of buffer
+Producer is putting 340 into buffer
+Consumer is taking 326 out of buffer
+Producer is putting 341 into buffer
+Consumer is taking 327 out of buffer
+Consumer wants to get 13 items out of buffer...
+Producer is putting 342 into buffer
+Consumer is taking 328 out of buffer
+Producer is putting 343 into buffer
+Producer wants to put 11 items into buffer...
+Consumer is taking 329 out of buffer
+Producer is putting 344 into buffer
+Consumer is taking 330 out of buffer
+Producer is putting 345 into buffer
+Consumer is taking 331 out of buffer
+Producer is putting 346 into buffer
+Consumer is taking 332 out of buffer
+Producer is putting 347 into buffer
+Consumer is taking 333 out of buffer
+Producer is putting 348 into buffer
+Consumer is taking 334 out of buffer
+Producer is putting 349 into buffer
+Consumer is taking 335 out of buffer
+Producer is putting 350 into buffer
+Consumer is taking 336 out of buffer
+Producer is putting 351 into buffer
+Consumer is taking 337 out of buffer
+Producer is putting 352 into buffer
+Consumer is taking 338 out of buffer
+Producer is putting 353 into buffer
+Consumer is taking 339 out of buffer
+Producer is putting 354 into buffer
+Producer wants to put 10 items into buffer...
+Consumer is taking 340 out of buffer
+Consumer wants to get 2 items out of buffer...
+Producer is putting 355 into buffer
+Consumer is taking 341 out of buffer
+Producer is putting 356 into buffer
+Consumer is taking 342 out of buffer
+Consumer wants to get 7 items out of buffer...
+Producer is putting 357 into buffer
+Consumer is taking 343 out of buffer
+Producer is putting 358 into buffer
+Consumer is taking 344 out of buffer
+Producer is putting 359 into buffer
+Consumer is taking 345 out of buffer
+Producer is putting 360 into buffer
+Consumer is taking 346 out of buffer
+Producer is putting 361 into buffer
+Consumer is taking 347 out of buffer
+Producer is putting 362 into buffer
+Consumer is taking 348 out of buffer
+Producer is putting 363 into buffer
+Consumer is taking 349 out of buffer
+Consumer wants to get 7 items out of buffer...
+Producer is putting 364 into buffer
+Producer wants to put 15 items into buffer...
+Consumer is taking 350 out of buffer
+Producer is putting 365 into buffer
+Consumer is taking 351 out of buffer
+Producer is putting 366 into buffer
+Consumer is taking 352 out of buffer
+Producer is putting 367 into buffer
+Consumer is taking 353 out of buffer
+Producer is putting 368 into buffer
+Consumer is taking 354 out of buffer
+Producer is putting 369 into buffer
+Consumer is taking 355 out of buffer
+Producer is putting 370 into buffer
+Consumer is taking 356 out of buffer
+Consumer wants to get 7 items out of buffer...
+Producer is putting 371 into buffer
+Consumer is taking 357 out of buffer
+Producer is putting 372 into buffer
+Consumer is taking 358 out of buffer
+Producer is putting 373 into buffer
+Consumer is taking 359 out of buffer
+Producer is putting 374 into buffer
+Consumer is taking 360 out of buffer
+Producer is putting 375 into buffer
+Consumer is taking 361 out of buffer
+Producer is putting 376 into buffer
+Consumer is taking 362 out of buffer
+Producer is putting 377 into buffer
+Consumer is taking 363 out of buffer
+Consumer wants to get 7 items out of buffer...
+Producer is putting 378 into buffer
+Consumer is taking 364 out of buffer
+Producer is putting 379 into buffer
+Producer wants to put 9 items into buffer...
+Consumer is taking 365 out of buffer
+Producer is putting 380 into buffer
+Consumer is taking 366 out of buffer
+Producer is putting 381 into buffer
+Consumer is taking 367 out of buffer
+Producer is putting 382 into buffer
+Consumer is taking 368 out of buffer
+Producer is putting 383 into buffer
+Consumer is taking 369 out of buffer
+Producer is putting 384 into buffer
+Consumer is taking 370 out of buffer
+Consumer wants to get 5 items out of buffer...
+Producer is putting 385 into buffer
+Consumer is taking 371 out of buffer
+Producer is putting 386 into buffer
+Consumer is taking 372 out of buffer
+Producer is putting 387 into buffer
+Consumer is taking 373 out of buffer
+Producer is putting 388 into buffer
+Producer wants to put 1 items into buffer...
+Consumer is taking 374 out of buffer
+Producer is putting 389 into buffer
+Producer wants to put 10 items into buffer...
+Consumer is taking 375 out of buffer
+Consumer wants to get 13 items out of buffer...
+Producer is putting 390 into buffer
+Consumer is taking 376 out of buffer
+Producer is putting 391 into buffer
+Consumer is taking 377 out of buffer
+Producer is putting 392 into buffer
+Consumer is taking 378 out of buffer
+Producer is putting 393 into buffer
+Consumer is taking 379 out of buffer
+Producer is putting 394 into buffer
+Consumer is taking 380 out of buffer
+Producer is putting 395 into buffer
+Consumer is taking 381 out of buffer
+Producer is putting 396 into buffer
+Consumer is taking 382 out of buffer
+Producer is putting 397 into buffer
+Consumer is taking 383 out of buffer
+Producer is putting 398 into buffer
+Consumer is taking 384 out of buffer
+Producer is putting 399 into buffer
+Producer wants to put 13 items into buffer...
+Consumer is taking 385 out of buffer
+Producer is putting 400 into buffer
+Consumer is taking 386 out of buffer
+Producer is putting 401 into buffer
+Consumer is taking 387 out of buffer
+Producer is putting 402 into buffer
+Consumer is taking 388 out of buffer
+Consumer wants to get 2 items out of buffer...
+Producer is putting 403 into buffer
+Consumer is taking 389 out of buffer
+Producer is putting 404 into buffer
+Consumer is taking 390 out of buffer
+Consumer wants to get 2 items out of buffer...
+Producer is putting 405 into buffer
+Consumer is taking 391 out of buffer
+Producer is putting 406 into buffer
+Consumer is taking 392 out of buffer
+Consumer wants to get 1 items out of buffer...
+Producer is putting 407 into buffer
+Consumer is taking 393 out of buffer
+Consumer wants to get 2 items out of buffer...
+Producer is putting 408 into buffer
+Consumer is taking 394 out of buffer
+Producer is putting 409 into buffer
+Consumer is taking 395 out of buffer
+Consumer wants to get 4 items out of buffer...
+Producer is putting 410 into buffer
+Consumer is taking 396 out of buffer
+Producer is putting 411 into buffer
+Consumer is taking 397 out of buffer
+Producer is putting 412 into buffer
+Producer wants to put 14 items into buffer...
+Consumer is taking 398 out of buffer
+Producer is putting 413 into buffer
+Consumer is taking 399 out of buffer
+Consumer wants to get 1 items out of buffer...
+Producer is putting 414 into buffer
+Consumer is taking 400 out of buffer
+Consumer wants to get 14 items out of buffer...
+Producer is putting 415 into buffer
+Consumer is taking 401 out of buffer
+Producer is putting 416 into buffer
+Consumer is taking 402 out of buffer
+Producer is putting 417 into buffer
+Consumer is taking 403 out of buffer
+Producer is putting 418 into buffer
+Consumer is taking 404 out of buffer
+Producer is putting 419 into buffer
+Consumer is taking 405 out of buffer
+Producer is putting 420 into buffer
+Consumer is taking 406 out of buffer
+Producer is putting 421 into buffer
+Consumer is taking 407 out of buffer
+Producer is putting 422 into buffer
+Consumer is taking 408 out of buffer
+Producer is putting 423 into buffer
+Consumer is taking 409 out of buffer
+Producer is putting 424 into buffer
+Consumer is taking 410 out of buffer
+Producer is putting 425 into buffer
+Consumer is taking 411 out of buffer
+Producer is putting 426 into buffer
+Producer wants to put 7 items into buffer...
+Consumer is taking 412 out of buffer
+Producer is putting 427 into buffer
+Consumer is taking 413 out of buffer
+Producer is putting 428 into buffer
+Consumer is taking 414 out of buffer
+Consumer wants to get 4 items out of buffer...
+Producer is putting 429 into buffer
+Consumer is taking 415 out of buffer
+Producer is putting 430 into buffer
+Consumer is taking 416 out of buffer
+Producer is putting 431 into buffer
+Consumer is taking 417 out of buffer
+Producer is putting 432 into buffer
+Consumer is taking 418 out of buffer
+Consumer wants to get 15 items out of buffer...
+Producer is putting 433 into buffer
+Producer wants to put 10 items into buffer...
+Consumer is taking 419 out of buffer
+Producer is putting 434 into buffer
+Consumer is taking 420 out of buffer
+Producer is putting 435 into buffer
+Consumer is taking 421 out of buffer
+Producer is putting 436 into buffer
+Consumer is taking 422 out of buffer
+Producer is putting 437 into buffer
+Consumer is taking 423 out of buffer
+Producer is putting 438 into buffer
+Consumer is taking 424 out of buffer
+Producer is putting 439 into buffer
+Consumer is taking 425 out of buffer
+Producer is putting 440 into buffer
+Consumer is taking 426 out of buffer
+Producer is putting 441 into buffer
+Consumer is taking 427 out of buffer
+Producer is putting 442 into buffer
+Consumer is taking 428 out of buffer
+Producer is putting 443 into buffer
+Producer wants to put 14 items into buffer...
+Consumer is taking 429 out of buffer
+Producer is putting 444 into buffer
+Consumer is taking 430 out of buffer
+Producer is putting 445 into buffer
+Consumer is taking 431 out of buffer
+Producer is putting 446 into buffer
+Consumer is taking 432 out of buffer
+Producer is putting 447 into buffer
+Consumer is taking 433 out of buffer
+Consumer wants to get 7 items out of buffer...
+Producer is putting 448 into buffer
+Consumer is taking 434 out of buffer
+Producer is putting 449 into buffer
+Consumer is taking 435 out of buffer
+Producer is putting 450 into buffer
+Consumer is taking 436 out of buffer
+Producer is putting 451 into buffer
+Consumer is taking 437 out of buffer
+Producer is putting 452 into buffer
+Consumer is taking 438 out of buffer
+Producer is putting 453 into buffer
+Consumer is taking 439 out of buffer
+Producer is putting 454 into buffer
+Consumer is taking 440 out of buffer
+Consumer wants to get 7 items out of buffer...
+Producer is putting 455 into buffer
+Consumer is taking 441 out of buffer
+Producer is putting 456 into buffer
+Consumer is taking 442 out of buffer
+Producer is putting 457 into buffer
+Producer wants to put 11 items into buffer...
+Consumer is taking 443 out of buffer
+Producer is putting 458 into buffer
+Consumer is taking 444 out of buffer
+Producer is putting 459 into buffer
+Consumer is taking 445 out of buffer
+Producer is putting 460 into buffer
+Consumer is taking 446 out of buffer
+Producer is putting 461 into buffer
+Consumer is taking 447 out of buffer
+Consumer wants to get 4 items out of buffer...
+Producer is putting 462 into buffer
+Consumer is taking 448 out of buffer
+Producer is putting 463 into buffer
+Consumer is taking 449 out of buffer
+Producer is putting 464 into buffer
+Consumer is taking 450 out of buffer
+Producer is putting 465 into buffer
+Consumer is taking 451 out of buffer
+Consumer wants to get 9 items out of buffer...
+Producer is putting 466 into buffer
+Consumer is taking 452 out of buffer
+Producer is putting 467 into buffer
+Consumer is taking 453 out of buffer
+Producer is putting 468 into buffer
+Producer wants to put 12 items into buffer...
+Consumer is taking 454 out of buffer
+Producer is putting 469 into buffer
+Consumer is taking 455 out of buffer
+Producer is putting 470 into buffer
+Consumer is taking 456 out of buffer
+Producer is putting 471 into buffer
+Consumer is taking 457 out of buffer
+Producer is putting 472 into buffer
+Consumer is taking 458 out of buffer
+Producer is putting 473 into buffer
+Consumer is taking 459 out of buffer
+Producer is putting 474 into buffer
+Consumer is taking 460 out of buffer
+Consumer wants to get 12 items out of buffer...
+Producer is putting 475 into buffer
+Consumer is taking 461 out of buffer
+Producer is putting 476 into buffer
+Consumer is taking 462 out of buffer
+Producer is putting 477 into buffer
+Consumer is taking 463 out of buffer
+Producer is putting 478 into buffer
+Consumer is taking 464 out of buffer
+Producer is putting 479 into buffer
+Consumer is taking 465 out of buffer
+Producer is putting 480 into buffer
+Producer wants to put 14 items into buffer...
+Consumer is taking 466 out of buffer
+Producer is putting 481 into buffer
+Consumer is taking 467 out of buffer
+Producer is putting 482 into buffer
+Consumer is taking 468 out of buffer
+Producer is putting 483 into buffer
+Consumer is taking 469 out of buffer
+Producer is putting 484 into buffer
+Consumer is taking 470 out of buffer
+Producer is putting 485 into buffer
+Consumer is taking 471 out of buffer
+Producer is putting 486 into buffer
+Consumer is taking 472 out of buffer
+Consumer wants to get 1 items out of buffer...
+Producer is putting 487 into buffer
+Consumer is taking 473 out of buffer
+Consumer wants to get 16 items out of buffer...
+Producer is putting 488 into buffer
+Consumer is taking 474 out of buffer
+Producer is putting 489 into buffer
+Consumer is taking 475 out of buffer
+Producer is putting 490 into buffer
+Consumer is taking 476 out of buffer
+Producer is putting 491 into buffer
+Consumer is taking 477 out of buffer
+Producer is putting 492 into buffer
+Consumer is taking 478 out of buffer
+Producer is putting 493 into buffer
+Consumer is taking 479 out of buffer
+Producer is putting 494 into buffer
+Producer wants to put 12 items into buffer...
+Consumer is taking 480 out of buffer
+Producer is putting 495 into buffer
+Consumer is taking 481 out of buffer
+Producer is putting 496 into buffer
+Consumer is taking 482 out of buffer
+Producer is putting 497 into buffer
+Consumer is taking 483 out of buffer
+Producer is putting 498 into buffer
+Consumer is taking 484 out of buffer
+Producer is putting 499 into buffer
+Consumer is taking 485 out of buffer
+Producer is putting 500 into buffer
+Consumer is taking 486 out of buffer
+Producer is putting 501 into buffer
+Consumer is taking 487 out of buffer
+Producer is putting 502 into buffer
+Consumer is taking 488 out of buffer
+Producer is putting 503 into buffer
+Consumer is taking 489 out of buffer
+Consumer wants to get 8 items out of buffer...
+Producer is putting 504 into buffer
+Consumer is taking 490 out of buffer
+Producer is putting 505 into buffer
+Consumer is taking 491 out of buffer
+Producer is putting 506 into buffer
+Producer wants to put 9 items into buffer...
+Consumer is taking 492 out of buffer
+Producer is putting 507 into buffer
+Consumer is taking 493 out of buffer
+Producer is putting 508 into buffer
+Consumer is taking 494 out of buffer
+Producer is putting 509 into buffer
+Consumer is taking 495 out of buffer
+Producer is putting 510 into buffer
+Consumer is taking 496 out of buffer
+Producer is putting 511 into buffer
+Consumer is taking 497 out of buffer
+Consumer wants to get 6 items out of buffer...
+Producer is putting 512 into buffer
+Consumer is taking 498 out of buffer
+Producer is putting 513 into buffer
+Consumer is taking 499 out of buffer
+Producer is putting 514 into buffer
+Consumer is taking 500 out of buffer
+Producer is putting 515 into buffer
+Producer wants to put 6 items into buffer...
+Consumer is taking 501 out of buffer
+Producer is putting 516 into buffer
+Consumer is taking 502 out of buffer
+Producer is putting 517 into buffer
+Consumer is taking 503 out of buffer
+Consumer wants to get 2 items out of buffer...
+Producer is putting 518 into buffer
+Consumer is taking 504 out of buffer
+Producer is putting 519 into buffer
+Consumer is taking 505 out of buffer
+Consumer wants to get 3 items out of buffer...
+Producer is putting 520 into buffer
+Consumer is taking 506 out of buffer
+Producer is putting 521 into buffer
+Producer wants to put 9 items into buffer...
+Consumer is taking 507 out of buffer
+Producer is putting 522 into buffer
+Consumer is taking 508 out of buffer
+Consumer wants to get 16 items out of buffer...
+Producer is putting 523 into buffer
+Consumer is taking 509 out of buffer
+Producer is putting 524 into buffer
+Consumer is taking 510 out of buffer
+Producer is putting 525 into buffer
+Consumer is taking 511 out of buffer
+Producer is putting 526 into buffer
+Consumer is taking 512 out of buffer
+Producer is putting 527 into buffer
+Consumer is taking 513 out of buffer
+Producer is putting 528 into buffer
+Consumer is taking 514 out of buffer
+Producer is putting 529 into buffer
+Consumer is taking 515 out of buffer
+Producer is putting 530 into buffer
+Producer wants to put 4 items into buffer...
+Consumer is taking 516 out of buffer
+Producer is putting 531 into buffer
+Consumer is taking 517 out of buffer
+Producer is putting 532 into buffer
+Consumer is taking 518 out of buffer
+Producer is putting 533 into buffer
+Consumer is taking 519 out of buffer
+Producer is putting 534 into buffer
+Producer wants to put 2 items into buffer...
+Consumer is taking 520 out of buffer
+Producer is putting 535 into buffer
+Consumer is taking 521 out of buffer
+Producer is putting 536 into buffer
+Producer wants to put 10 items into buffer...
+Consumer is taking 522 out of buffer
+Producer is putting 537 into buffer
+Consumer is taking 523 out of buffer
+Producer is putting 538 into buffer
+Consumer is taking 524 out of buffer
+Consumer wants to get 10 items out of buffer...
+Producer is putting 539 into buffer
+Consumer is taking 525 out of buffer
+Producer is putting 540 into buffer
+Consumer is taking 526 out of buffer
+Producer is putting 541 into buffer
+Consumer is taking 527 out of buffer
+Producer is putting 542 into buffer
+Consumer is taking 528 out of buffer
+Producer is putting 543 into buffer
+Consumer is taking 529 out of buffer
+Producer is putting 544 into buffer
+Consumer is taking 530 out of buffer
+Producer is putting 545 into buffer
+Consumer is taking 531 out of buffer
+Producer is putting 546 into buffer
+Producer wants to put 1 items into buffer...
+Consumer is taking 532 out of buffer
+Producer is putting 547 into buffer
+Producer wants to put 10 items into buffer...
+Consumer is taking 533 out of buffer
+Producer is putting 548 into buffer
+Consumer is taking 534 out of buffer
+Consumer wants to get 16 items out of buffer...
+Producer is putting 549 into buffer
+Consumer is taking 535 out of buffer
+Producer is putting 550 into buffer
+Consumer is taking 536 out of buffer
+Producer is putting 551 into buffer
+Consumer is taking 537 out of buffer
+Producer is putting 552 into buffer
+Consumer is taking 538 out of buffer
+Producer is putting 553 into buffer
+Consumer is taking 539 out of buffer
+Producer is putting 554 into buffer
+Consumer is taking 540 out of buffer
+Producer is putting 555 into buffer
+Consumer is taking 541 out of buffer
+Producer is putting 556 into buffer
+Consumer is taking 542 out of buffer
+Producer is putting 557 into buffer
+Producer wants to put 6 items into buffer...
+Consumer is taking 543 out of buffer
+Producer is putting 558 into buffer
+Consumer is taking 544 out of buffer
+Producer is putting 559 into buffer
+Consumer is taking 545 out of buffer
+Producer is putting 560 into buffer
+Consumer is taking 546 out of buffer
+Producer is putting 561 into buffer
+Consumer is taking 547 out of buffer
+Producer is putting 562 into buffer
+Consumer is taking 548 out of buffer
+Producer is putting 563 into buffer
+Producer wants to put 13 items into buffer...
+Consumer is taking 549 out of buffer
+Producer is putting 564 into buffer
+Consumer is taking 550 out of buffer
+Consumer wants to get 10 items out of buffer...
+Producer is putting 565 into buffer
+Consumer is taking 551 out of buffer
+Producer is putting 566 into buffer
+Consumer is taking 552 out of buffer
+Producer is putting 567 into buffer
+Consumer is taking 553 out of buffer
+Producer is putting 568 into buffer
+Consumer is taking 554 out of buffer
+Producer is putting 569 into buffer
+Consumer is taking 555 out of buffer
+Producer is putting 570 into buffer
+Consumer is taking 556 out of buffer
+Producer is putting 571 into buffer
+Consumer is taking 557 out of buffer
+Producer is putting 572 into buffer
+Consumer is taking 558 out of buffer
+Producer is putting 573 into buffer
+Consumer is taking 559 out of buffer
+Producer is putting 574 into buffer
+Consumer is taking 560 out of buffer
+Consumer wants to get 12 items out of buffer...
+Producer is putting 575 into buffer
+Consumer is taking 561 out of buffer
+Producer is putting 576 into buffer
+Producer wants to put 6 items into buffer...
+Consumer is taking 562 out of buffer
+Producer is putting 577 into buffer
+Consumer is taking 563 out of buffer
+Producer is putting 578 into buffer
+Consumer is taking 564 out of buffer
+Producer is putting 579 into buffer
+Consumer is taking 565 out of buffer
+Producer is putting 580 into buffer
+Consumer is taking 566 out of buffer
+Producer is putting 581 into buffer
+Consumer is taking 567 out of buffer
+Producer is putting 582 into buffer
+Producer wants to put 13 items into buffer...
+Consumer is taking 568 out of buffer
+Producer is putting 583 into buffer
+Consumer is taking 569 out of buffer
+Producer is putting 584 into buffer
+Consumer is taking 570 out of buffer
+Producer is putting 585 into buffer
+Consumer is taking 571 out of buffer
+Producer is putting 586 into buffer
+Consumer is taking 572 out of buffer
+Consumer wants to get 1 items out of buffer...
+Producer is putting 587 into buffer
+Consumer is taking 573 out of buffer
+Consumer wants to get 8 items out of buffer...
+Producer is putting 588 into buffer
+Consumer is taking 574 out of buffer
+Producer is putting 589 into buffer
+Consumer is taking 575 out of buffer
+Producer is putting 590 into buffer
+Consumer is taking 576 out of buffer
+Producer is putting 591 into buffer
+Consumer is taking 577 out of buffer
+Producer is putting 592 into buffer
+Consumer is taking 578 out of buffer
+Producer is putting 593 into buffer
+Consumer is taking 579 out of buffer
+Producer is putting 594 into buffer
+Consumer is taking 580 out of buffer
+Producer is putting 595 into buffer
+Producer wants to put 14 items into buffer...
+Consumer is taking 581 out of buffer
+Consumer wants to get 6 items out of buffer...
+Producer is putting 596 into buffer
+Consumer is taking 582 out of buffer
+Producer is putting 597 into buffer
+Consumer is taking 583 out of buffer
+Producer is putting 598 into buffer
+Consumer is taking 584 out of buffer
+Producer is putting 599 into buffer
+Consumer is taking 585 out of buffer
+Producer is putting 600 into buffer
+Consumer is taking 586 out of buffer
+Producer is putting 601 into buffer
+Consumer is taking 587 out of buffer
+Consumer wants to get 13 items out of buffer...
+Producer is putting 602 into buffer
+Consumer is taking 588 out of buffer
+Producer is putting 603 into buffer
+Consumer is taking 589 out of buffer
+Producer is putting 604 into buffer
+Consumer is taking 590 out of buffer
+Producer is putting 605 into buffer
+Consumer is taking 591 out of buffer
+Producer is putting 606 into buffer
+Consumer is taking 592 out of buffer
+Producer is putting 607 into buffer
+Consumer is taking 593 out of buffer
+Producer is putting 608 into buffer
+Consumer is taking 594 out of buffer
+Producer is putting 609 into buffer
+Producer wants to put 7 items into buffer...
+Consumer is taking 595 out of buffer
+Producer is putting 610 into buffer
+Consumer is taking 596 out of buffer
+Producer is putting 611 into buffer
+Consumer is taking 597 out of buffer
+Producer is putting 612 into buffer
+Consumer is taking 598 out of buffer
+Producer is putting 613 into buffer
+Consumer is taking 599 out of buffer
+Producer is putting 614 into buffer
+Consumer is taking 600 out of buffer
+Consumer wants to get 12 items out of buffer...
+Producer is putting 615 into buffer
+Consumer is taking 601 out of buffer
+Producer is putting 616 into buffer
+Producer wants to put 1 items into buffer...
+Consumer is taking 602 out of buffer
+Producer is putting 617 into buffer
+Producer wants to put 11 items into buffer...
+Consumer is taking 603 out of buffer
+Producer is putting 618 into buffer
+Consumer is taking 604 out of buffer
+Producer is putting 619 into buffer
+Consumer is taking 605 out of buffer
+Producer is putting 620 into buffer
+Consumer is taking 606 out of buffer
+Producer is putting 621 into buffer
+Consumer is taking 607 out of buffer
+Producer is putting 622 into buffer
+Consumer is taking 608 out of buffer
+Producer is putting 623 into buffer
+Consumer is taking 609 out of buffer
+Producer is putting 624 into buffer
+Consumer is taking 610 out of buffer
+Producer is putting 625 into buffer
+Consumer is taking 611 out of buffer
+Producer is putting 626 into buffer
+Consumer is taking 612 out of buffer
+Consumer wants to get 5 items out of buffer...
+Producer is putting 627 into buffer
+Consumer is taking 613 out of buffer
+Producer is putting 628 into buffer
+Producer wants to put 4 items into buffer...
+Consumer is taking 614 out of buffer
+Producer is putting 629 into buffer
+Consumer is taking 615 out of buffer
+Producer is putting 630 into buffer
+Consumer is taking 616 out of buffer
+Producer is putting 631 into buffer
+Consumer is taking 617 out of buffer
+Consumer wants to get 3 items out of buffer...
+Producer is putting 632 into buffer
+Producer wants to put 12 items into buffer...
+Consumer is taking 618 out of buffer
+Producer is putting 633 into buffer
+Consumer is taking 619 out of buffer
+Producer is putting 634 into buffer
+Consumer is taking 620 out of buffer
+Consumer wants to get 6 items out of buffer...
+Producer is putting 635 into buffer
+Consumer is taking 621 out of buffer
+Producer is putting 636 into buffer
+Consumer is taking 622 out of buffer
+Producer is putting 637 into buffer
+Consumer is taking 623 out of buffer
+Producer is putting 638 into buffer
+Consumer is taking 624 out of buffer
+Producer is putting 639 into buffer
+Consumer is taking 625 out of buffer
+Producer is putting 640 into buffer
+Consumer is taking 626 out of buffer
+Consumer wants to get 6 items out of buffer...
+Producer is putting 641 into buffer
+Consumer is taking 627 out of buffer
+Producer is putting 642 into buffer
+Consumer is taking 628 out of buffer
+Producer is putting 643 into buffer
+Consumer is taking 629 out of buffer
+Producer is putting 644 into buffer
+Producer wants to put 12 items into buffer...
+Consumer is taking 630 out of buffer
+Producer is putting 645 into buffer
+Consumer is taking 631 out of buffer
+Producer is putting 646 into buffer
+Consumer is taking 632 out of buffer
+Consumer wants to get 13 items out of buffer...
+Producer is putting 647 into buffer
+Consumer is taking 633 out of buffer
+Producer is putting 648 into buffer
+Consumer is taking 634 out of buffer
+Producer is putting 649 into buffer
+Consumer is taking 635 out of buffer
+Producer is putting 650 into buffer
+Consumer is taking 636 out of buffer
+Producer is putting 651 into buffer
+Consumer is taking 637 out of buffer
+Producer is putting 652 into buffer
+Consumer is taking 638 out of buffer
+Producer is putting 653 into buffer
+Consumer is taking 639 out of buffer
+Producer is putting 654 into buffer
+Consumer is taking 640 out of buffer
+Producer is putting 655 into buffer
+Consumer is taking 641 out of buffer
+Producer is putting 656 into buffer
+Producer wants to put 3 items into buffer...
+Consumer is taking 642 out of buffer
+Producer is putting 657 into buffer
+Consumer is taking 643 out of buffer
+Producer is putting 658 into buffer
+Consumer is taking 644 out of buffer
+Producer is putting 659 into buffer
+Producer wants to put 16 items into buffer...
+Consumer is taking 645 out of buffer
+Consumer wants to get 12 items out of buffer...
+Producer is putting 660 into buffer
+Consumer is taking 646 out of buffer
+Producer is putting 661 into buffer
+Consumer is taking 647 out of buffer
+Producer is putting 662 into buffer
+Consumer is taking 648 out of buffer
+Producer is putting 663 into buffer
+Consumer is taking 649 out of buffer
+Producer is putting 664 into buffer
+Consumer is taking 650 out of buffer
+Producer is putting 665 into buffer
+Consumer is taking 651 out of buffer
+Producer is putting 666 into buffer
+Consumer is taking 652 out of buffer
+Producer is putting 667 into buffer
+Consumer is taking 653 out of buffer
+Producer is putting 668 into buffer
+Consumer is taking 654 out of buffer
+Producer is putting 669 into buffer
+Consumer is taking 655 out of buffer
+Producer is putting 670 into buffer
+Consumer is taking 656 out of buffer
+Producer is putting 671 into buffer
+Consumer is taking 657 out of buffer
+Consumer wants to get 3 items out of buffer...
+Producer is putting 672 into buffer
+Consumer is taking 658 out of buffer
+Producer is putting 673 into buffer
+Consumer is taking 659 out of buffer
+Producer is putting 674 into buffer
+Consumer is taking 660 out of buffer
+Consumer wants to get 13 items out of buffer...
+Producer is putting 675 into buffer
+Producer wants to put 10 items into buffer...
+Consumer is taking 661 out of buffer
+Producer is putting 676 into buffer
+Consumer is taking 662 out of buffer
+Producer is putting 677 into buffer
+Consumer is taking 663 out of buffer
+Producer is putting 678 into buffer
+Consumer is taking 664 out of buffer
+Producer is putting 679 into buffer
+Consumer is taking 665 out of buffer
+Producer is putting 680 into buffer
+Consumer is taking 666 out of buffer
+Producer is putting 681 into buffer
+Consumer is taking 667 out of buffer
+Producer is putting 682 into buffer
+Consumer is taking 668 out of buffer
+Producer is putting 683 into buffer
+Consumer is taking 669 out of buffer
+Producer is putting 684 into buffer
+Consumer is taking 670 out of buffer
+Producer is putting 685 into buffer
+Producer wants to put 6 items into buffer...
+Consumer is taking 671 out of buffer
+Producer is putting 686 into buffer
+Consumer is taking 672 out of buffer
+Producer is putting 687 into buffer
+Consumer is taking 673 out of buffer
+Consumer wants to get 10 items out of buffer...
+Producer is putting 688 into buffer
+Consumer is taking 674 out of buffer
+Producer is putting 689 into buffer
+Consumer is taking 675 out of buffer
+Producer is putting 690 into buffer
+Consumer is taking 676 out of buffer
+Producer is putting 691 into buffer
+Producer wants to put 12 items into buffer...
+Consumer is taking 677 out of buffer
+Producer is putting 692 into buffer
+Consumer is taking 678 out of buffer
+Producer is putting 693 into buffer
+Consumer is taking 679 out of buffer
+Producer is putting 694 into buffer
+Consumer is taking 680 out of buffer
+Producer is putting 695 into buffer
+Consumer is taking 681 out of buffer
+Producer is putting 696 into buffer
+Consumer is taking 682 out of buffer
+Producer is putting 697 into buffer
+Consumer is taking 683 out of buffer
+Consumer wants to get 11 items out of buffer...
+Producer is putting 698 into buffer
+Consumer is taking 684 out of buffer
+Producer is putting 699 into buffer
+Consumer is taking 685 out of buffer
+Producer is putting 700 into buffer
+Consumer is taking 686 out of buffer
+Producer is putting 701 into buffer
+Consumer is taking 687 out of buffer
+Producer is putting 702 into buffer
+Consumer is taking 688 out of buffer
+Producer is putting 703 into buffer
+Producer wants to put 1 items into buffer...
+Consumer is taking 689 out of buffer
+Producer is putting 704 into buffer
+Producer wants to put 16 items into buffer...
+Consumer is taking 690 out of buffer
+Producer is putting 705 into buffer
+Consumer is taking 691 out of buffer
+Producer is putting 706 into buffer
+Consumer is taking 692 out of buffer
+Producer is putting 707 into buffer
+Consumer is taking 693 out of buffer
+Producer is putting 708 into buffer
+Consumer is taking 694 out of buffer
+Consumer wants to get 14 items out of buffer...
+Producer is putting 709 into buffer
+Consumer is taking 695 out of buffer
+Producer is putting 710 into buffer
+Consumer is taking 696 out of buffer
+Producer is putting 711 into buffer
+Consumer is taking 697 out of buffer
+Producer is putting 712 into buffer
+Consumer is taking 698 out of buffer
+Producer is putting 713 into buffer
+Consumer is taking 699 out of buffer
+Producer is putting 714 into buffer
+Consumer is taking 700 out of buffer
+Producer is putting 715 into buffer
+Consumer is taking 701 out of buffer
+Producer is putting 716 into buffer
+Consumer is taking 702 out of buffer
+Producer is putting 717 into buffer
+Consumer is taking 703 out of buffer
+Producer is putting 718 into buffer
+Consumer is taking 704 out of buffer
+Producer is putting 719 into buffer
+Consumer is taking 705 out of buffer
+Producer is putting 720 into buffer
+Producer wants to put 4 items into buffer...
+Consumer is taking 706 out of buffer
+Producer is putting 721 into buffer
+Consumer is taking 707 out of buffer
+Producer is putting 722 into buffer
+Consumer is taking 708 out of buffer
+Consumer wants to get 15 items out of buffer...
+Producer is putting 723 into buffer
+Consumer is taking 709 out of buffer
+Producer is putting 724 into buffer
+Producer wants to put 8 items into buffer...
+Consumer is taking 710 out of buffer
+Producer is putting 725 into buffer
+Consumer is taking 711 out of buffer
+Producer is putting 726 into buffer
+Consumer is taking 712 out of buffer
+Producer is putting 727 into buffer
+Consumer is taking 713 out of buffer
+Producer is putting 728 into buffer
+Consumer is taking 714 out of buffer
+Producer is putting 729 into buffer
+Consumer is taking 715 out of buffer
+Producer is putting 730 into buffer
+Consumer is taking 716 out of buffer
+Producer is putting 731 into buffer
+Consumer is taking 717 out of buffer
+Producer is putting 732 into buffer
+Producer wants to put 1 items into buffer...
+Consumer is taking 718 out of buffer
+Producer is putting 733 into buffer
+Producer wants to put 5 items into buffer...
+Consumer is taking 719 out of buffer
+Producer is putting 734 into buffer
+Consumer is taking 720 out of buffer
+Producer is putting 735 into buffer
+Consumer is taking 721 out of buffer
+Producer is putting 736 into buffer
+Consumer is taking 722 out of buffer
+Producer is putting 737 into buffer
+Consumer is taking 723 out of buffer
+Consumer wants to get 13 items out of buffer...
+Producer is putting 738 into buffer
+Producer wants to put 7 items into buffer...
+Consumer is taking 724 out of buffer
+Producer is putting 739 into buffer
+Consumer is taking 725 out of buffer
+Producer is putting 740 into buffer
+Consumer is taking 726 out of buffer
+Producer is putting 741 into buffer
+Consumer is taking 727 out of buffer
+Producer is putting 742 into buffer
+Consumer is taking 728 out of buffer
+Producer is putting 743 into buffer
+Consumer is taking 729 out of buffer
+Producer is putting 744 into buffer
+Consumer is taking 730 out of buffer
+Producer is putting 745 into buffer
+Producer wants to put 8 items into buffer...
+Consumer is taking 731 out of buffer
+Producer is putting 746 into buffer
+Consumer is taking 732 out of buffer
+Producer is putting 747 into buffer
+Consumer is taking 733 out of buffer
+Producer is putting 748 into buffer
+Consumer is taking 734 out of buffer
+Producer is putting 749 into buffer
+Consumer is taking 735 out of buffer
+Producer is putting 750 into buffer
+Consumer is taking 736 out of buffer
+Consumer wants to get 2 items out of buffer...
+Producer is putting 751 into buffer
+Consumer is taking 737 out of buffer
+Producer is putting 752 into buffer
+Consumer is taking 738 out of buffer
+Consumer wants to get 15 items out of buffer...
+Producer is putting 753 into buffer
+Producer wants to put 6 items into buffer...
+Consumer is taking 739 out of buffer
+Producer is putting 754 into buffer
+Consumer is taking 740 out of buffer
+Producer is putting 755 into buffer
+Consumer is taking 741 out of buffer
+Producer is putting 756 into buffer
+Consumer is taking 742 out of buffer
+Producer is putting 757 into buffer
+Consumer is taking 743 out of buffer
+Producer is putting 758 into buffer
+Consumer is taking 744 out of buffer
+Producer is putting 759 into buffer
+Producer wants to put 4 items into buffer...
+Consumer is taking 745 out of buffer
+Producer is putting 760 into buffer
+Consumer is taking 746 out of buffer
+Producer is putting 761 into buffer
+Consumer is taking 747 out of buffer
+Producer is putting 762 into buffer
+Consumer is taking 748 out of buffer
+Producer is putting 763 into buffer
+Producer wants to put 16 items into buffer...
+Consumer is taking 749 out of buffer
+Producer is putting 764 into buffer
+Consumer is taking 750 out of buffer
+Producer is putting 765 into buffer
+Consumer is taking 751 out of buffer
+Producer is putting 766 into buffer
+Consumer is taking 752 out of buffer
+Producer is putting 767 into buffer
+Consumer is taking 753 out of buffer
+Consumer wants to get 4 items out of buffer...
+Producer is putting 768 into buffer
+Consumer is taking 754 out of buffer
+Producer is putting 769 into buffer
+Consumer is taking 755 out of buffer
+Producer is putting 770 into buffer
+Consumer is taking 756 out of buffer
+Producer is putting 771 into buffer
+Consumer is taking 757 out of buffer
+Consumer wants to get 2 items out of buffer...
+Producer is putting 772 into buffer
+Consumer is taking 758 out of buffer
+Producer is putting 773 into buffer
+Consumer is taking 759 out of buffer
+Consumer wants to get 12 items out of buffer...
+Producer is putting 774 into buffer
+Consumer is taking 760 out of buffer
+Producer is putting 775 into buffer
+Consumer is taking 761 out of buffer
+Producer is putting 776 into buffer
+Consumer is taking 762 out of buffer
+Producer is putting 777 into buffer
+Consumer is taking 763 out of buffer
+Producer is putting 778 into buffer
+Consumer is taking 764 out of buffer
+Producer is putting 779 into buffer
+Producer wants to put 14 items into buffer...
+Consumer is taking 765 out of buffer
+Producer is putting 780 into buffer
+Consumer is taking 766 out of buffer
+Producer is putting 781 into buffer
+Consumer is taking 767 out of buffer
+Producer is putting 782 into buffer
+Consumer is taking 768 out of buffer
+Producer is putting 783 into buffer
+Consumer is taking 769 out of buffer
+Producer is putting 784 into buffer
+Consumer is taking 770 out of buffer
+Producer is putting 785 into buffer
+Consumer is taking 771 out of buffer
+Consumer wants to get 5 items out of buffer...
+Producer is putting 786 into buffer
+Consumer is taking 772 out of buffer
+Producer is putting 787 into buffer
+Consumer is taking 773 out of buffer
+Producer is putting 788 into buffer
+Consumer is taking 774 out of buffer
+Producer is putting 789 into buffer
+Consumer is taking 775 out of buffer
+Producer is putting 790 into buffer
+Consumer is taking 776 out of buffer
+Consumer wants to get 16 items out of buffer...
+Producer is putting 791 into buffer
+Consumer is taking 777 out of buffer
+Producer is putting 792 into buffer
+Consumer is taking 778 out of buffer
+Producer is putting 793 into buffer
+Producer wants to put 8 items into buffer...
+Consumer is taking 779 out of buffer
+Producer is putting 794 into buffer
+Consumer is taking 780 out of buffer
+Producer is putting 795 into buffer
+Consumer is taking 781 out of buffer
+Producer is putting 796 into buffer
+Consumer is taking 782 out of buffer
+Producer is putting 797 into buffer
+Consumer is taking 783 out of buffer
+Producer is putting 798 into buffer
+Consumer is taking 784 out of buffer
+Producer is putting 799 into buffer
+Consumer is taking 785 out of buffer
+Producer is putting 800 into buffer
+Consumer is taking 786 out of buffer
+Producer is putting 801 into buffer
+Producer wants to put 8 items into buffer...
+Consumer is taking 787 out of buffer
+Producer is putting 802 into buffer
+Consumer is taking 788 out of buffer
+Producer is putting 803 into buffer
+Consumer is taking 789 out of buffer
+Producer is putting 804 into buffer
+Consumer is taking 790 out of buffer
+Producer is putting 805 into buffer
+Consumer is taking 791 out of buffer
+Producer is putting 806 into buffer
+Consumer is taking 792 out of buffer
+Consumer wants to get 3 items out of buffer...
+Producer is putting 807 into buffer
+Consumer is taking 793 out of buffer
+Producer is putting 808 into buffer
+Consumer is taking 794 out of buffer
+Producer is putting 809 into buffer
+Producer wants to put 4 items into buffer...
+Consumer is taking 795 out of buffer
+Consumer wants to get 2 items out of buffer...
+Producer is putting 810 into buffer
+Consumer is taking 796 out of buffer
+Producer is putting 811 into buffer
+Consumer is taking 797 out of buffer
+Consumer wants to get 8 items out of buffer...
+Producer is putting 812 into buffer
+Consumer is taking 798 out of buffer
+Producer is putting 813 into buffer
+Producer wants to put 4 items into buffer...
+Consumer is taking 799 out of buffer
+Producer is putting 814 into buffer
+Consumer is taking 800 out of buffer
+Producer is putting 815 into buffer
+Consumer is taking 801 out of buffer
+Producer is putting 816 into buffer
+Consumer is taking 802 out of buffer
+Producer is putting 817 into buffer
+Producer wants to put 6 items into buffer...
+Consumer is taking 803 out of buffer
+Producer is putting 818 into buffer
+Consumer is taking 804 out of buffer
+Producer is putting 819 into buffer
+Consumer is taking 805 out of buffer
+Consumer wants to get 6 items out of buffer...
+Producer is putting 820 into buffer
+Consumer is taking 806 out of buffer
+Producer is putting 821 into buffer
+Consumer is taking 807 out of buffer
+Producer is putting 822 into buffer
+Consumer is taking 808 out of buffer
+Producer is putting 823 into buffer
+Producer wants to put 12 items into buffer...
+Consumer is taking 809 out of buffer
+Producer is putting 824 into buffer
+Consumer is taking 810 out of buffer
+Producer is putting 825 into buffer
+Consumer is taking 811 out of buffer
+Consumer wants to get 14 items out of buffer...
+Producer is putting 826 into buffer
+Consumer is taking 812 out of buffer
+Producer is putting 827 into buffer
+Consumer is taking 813 out of buffer
+Producer is putting 828 into buffer
+Consumer is taking 814 out of buffer
+Producer is putting 829 into buffer
+Consumer is taking 815 out of buffer
+Producer is putting 830 into buffer
+Consumer is taking 816 out of buffer
+Producer is putting 831 into buffer
+Consumer is taking 817 out of buffer
+Producer is putting 832 into buffer
+Consumer is taking 818 out of buffer
+Producer is putting 833 into buffer
+Consumer is taking 819 out of buffer
+Producer is putting 834 into buffer
+Consumer is taking 820 out of buffer
+Producer is putting 835 into buffer
+Producer wants to put 1 items into buffer...
+Consumer is taking 821 out of buffer
+Producer is putting 836 into buffer
+Producer wants to put 15 items into buffer...
+Consumer is taking 822 out of buffer
+Producer is putting 837 into buffer
+Consumer is taking 823 out of buffer
+Producer is putting 838 into buffer
+Consumer is taking 824 out of buffer
+Producer is putting 839 into buffer
+Consumer is taking 825 out of buffer
+Consumer wants to get 13 items out of buffer...
+Producer is putting 840 into buffer
+Consumer is taking 826 out of buffer
+Producer is putting 841 into buffer
+Consumer is taking 827 out of buffer
+Producer is putting 842 into buffer
+Consumer is taking 828 out of buffer
+Producer is putting 843 into buffer
+Consumer is taking 829 out of buffer
+Producer is putting 844 into buffer
+Consumer is taking 830 out of buffer
+Producer is putting 845 into buffer
+Consumer is taking 831 out of buffer
+Producer is putting 846 into buffer
+Consumer is taking 832 out of buffer
+Producer is putting 847 into buffer
+Consumer is taking 833 out of buffer
+Producer is putting 848 into buffer
+Consumer is taking 834 out of buffer
+Producer is putting 849 into buffer
+Consumer is taking 835 out of buffer
+Producer is putting 850 into buffer
+Consumer is taking 836 out of buffer
+Producer is putting 851 into buffer
+Producer wants to put 8 items into buffer...
+Consumer is taking 837 out of buffer
+Producer is putting 852 into buffer
+Consumer is taking 838 out of buffer
+Consumer wants to get 12 items out of buffer...
+Producer is putting 853 into buffer
+Consumer is taking 839 out of buffer
+Producer is putting 854 into buffer
+Consumer is taking 840 out of buffer
+Producer is putting 855 into buffer
+Consumer is taking 841 out of buffer
+Producer is putting 856 into buffer
+Consumer is taking 842 out of buffer
+Producer is putting 857 into buffer
+Consumer is taking 843 out of buffer
+Producer is putting 858 into buffer
+Consumer is taking 844 out of buffer
+Producer is putting 859 into buffer
+Producer wants to put 14 items into buffer...
+Consumer is taking 845 out of buffer
+Producer is putting 860 into buffer
+Consumer is taking 846 out of buffer
+Producer is putting 861 into buffer
+Consumer is taking 847 out of buffer
+Producer is putting 862 into buffer
+Consumer is taking 848 out of buffer
+Producer is putting 863 into buffer
+Consumer is taking 849 out of buffer
+Producer is putting 864 into buffer
+Consumer is taking 850 out of buffer
+Consumer wants to get 13 items out of buffer...
+Producer is putting 865 into buffer
+Consumer is taking 851 out of buffer
+Producer is putting 866 into buffer
+Consumer is taking 852 out of buffer
+Producer is putting 867 into buffer
+Consumer is taking 853 out of buffer
+Producer is putting 868 into buffer
+Consumer is taking 854 out of buffer
+Producer is putting 869 into buffer
+Consumer is taking 855 out of buffer
+Producer is putting 870 into buffer
+Consumer is taking 856 out of buffer
+Producer is putting 871 into buffer
+Consumer is taking 857 out of buffer
+Producer is putting 872 into buffer
+Consumer is taking 858 out of buffer
+Producer is putting 873 into buffer
+Producer wants to put 13 items into buffer...
+Consumer is taking 859 out of buffer
+Producer is putting 874 into buffer
+Consumer is taking 860 out of buffer
+Producer is putting 875 into buffer
+Consumer is taking 861 out of buffer
+Producer is putting 876 into buffer
+Consumer is taking 862 out of buffer
+Producer is putting 877 into buffer
+Consumer is taking 863 out of buffer
+Consumer wants to get 5 items out of buffer...
+Producer is putting 878 into buffer
+Consumer is taking 864 out of buffer
+Producer is putting 879 into buffer
+Consumer is taking 865 out of buffer
+Producer is putting 880 into buffer
+Consumer is taking 866 out of buffer
+Producer is putting 881 into buffer
+Consumer is taking 867 out of buffer
+Producer is putting 882 into buffer
+Consumer is taking 868 out of buffer
+Consumer wants to get 14 items out of buffer...
+Producer is putting 883 into buffer
+Consumer is taking 869 out of buffer
+Producer is putting 884 into buffer
+Consumer is taking 870 out of buffer
+Producer is putting 885 into buffer
+Consumer is taking 871 out of buffer
+Producer is putting 886 into buffer
+Producer wants to put 3 items into buffer...
+Consumer is taking 872 out of buffer
+Producer is putting 887 into buffer
+Consumer is taking 873 out of buffer
+Producer is putting 888 into buffer
+Consumer is taking 874 out of buffer
+Producer is putting 889 into buffer
+Producer wants to put 3 items into buffer...
+Consumer is taking 875 out of buffer
+Producer is putting 890 into buffer
+Consumer is taking 876 out of buffer
+Producer is putting 891 into buffer
+Consumer is taking 877 out of buffer
+Producer is putting 892 into buffer
+Producer wants to put 8 items into buffer...
+Consumer is taking 878 out of buffer
+Producer is putting 893 into buffer
+Consumer is taking 879 out of buffer
+Producer is putting 894 into buffer
+Consumer is taking 880 out of buffer
+Producer is putting 895 into buffer
+Consumer is taking 881 out of buffer
+Producer is putting 896 into buffer
+Consumer is taking 882 out of buffer
+Consumer wants to get 5 items out of buffer...
+Producer is putting 897 into buffer
+Consumer is taking 883 out of buffer
+Producer is putting 898 into buffer
+Consumer is taking 884 out of buffer
+Producer is putting 899 into buffer
+Consumer is taking 885 out of buffer
+Producer is putting 900 into buffer
+Producer wants to put 2 items into buffer...
+Consumer is taking 886 out of buffer
+Producer is putting 901 into buffer
+Consumer is taking 887 out of buffer
+Consumer wants to get 2 items out of buffer...
+Producer is putting 902 into buffer
+Producer wants to put 5 items into buffer...
+Consumer is taking 888 out of buffer
+Producer is putting 903 into buffer
+Consumer is taking 889 out of buffer
+Consumer wants to get 9 items out of buffer...
+Producer is putting 904 into buffer
+Consumer is taking 890 out of buffer
+Producer is putting 905 into buffer
+Consumer is taking 891 out of buffer
+Producer is putting 906 into buffer
+Consumer is taking 892 out of buffer
+Producer is putting 907 into buffer
+Producer wants to put 15 items into buffer...
+Consumer is taking 893 out of buffer
+Producer is putting 908 into buffer
+Consumer is taking 894 out of buffer
+Producer is putting 909 into buffer
+Consumer is taking 895 out of buffer
+Producer is putting 910 into buffer
+Consumer is taking 896 out of buffer
+Producer is putting 911 into buffer
+Consumer is taking 897 out of buffer
+Producer is putting 912 into buffer
+Consumer is taking 898 out of buffer
+Consumer wants to get 16 items out of buffer...
+Producer is putting 913 into buffer
+Consumer is taking 899 out of buffer
+Producer is putting 914 into buffer
+Consumer is taking 900 out of buffer
+Producer is putting 915 into buffer
+Consumer is taking 901 out of buffer
+Producer is putting 916 into buffer
+Consumer is taking 902 out of buffer
+Producer is putting 917 into buffer
+Consumer is taking 903 out of buffer
+Producer is putting 918 into buffer
+Consumer is taking 904 out of buffer
+Producer is putting 919 into buffer
+Consumer is taking 905 out of buffer
+Producer is putting 920 into buffer
+Consumer is taking 906 out of buffer
+Producer is putting 921 into buffer
+Consumer is taking 907 out of buffer
+Producer is putting 922 into buffer
+Producer wants to put 15 items into buffer...
+Consumer is taking 908 out of buffer
+Producer is putting 923 into buffer
+Consumer is taking 909 out of buffer
+Producer is putting 924 into buffer
+Consumer is taking 910 out of buffer
+Producer is putting 925 into buffer
+Consumer is taking 911 out of buffer
+Producer is putting 926 into buffer
+Consumer is taking 912 out of buffer
+Producer is putting 927 into buffer
+Consumer is taking 913 out of buffer
+Producer is putting 928 into buffer
+Consumer is taking 914 out of buffer
+Consumer wants to get 14 items out of buffer...
+Producer is putting 929 into buffer
+Consumer is taking 915 out of buffer
+Producer is putting 930 into buffer
+Consumer is taking 916 out of buffer
+Producer is putting 931 into buffer
+Consumer is taking 917 out of buffer
+Producer is putting 932 into buffer
+Consumer is taking 918 out of buffer
+Producer is putting 933 into buffer
+Consumer is taking 919 out of buffer
+Producer is putting 934 into buffer
+Consumer is taking 920 out of buffer
+Producer is putting 935 into buffer
+Consumer is taking 921 out of buffer
+Producer is putting 936 into buffer
+Consumer is taking 922 out of buffer
+Producer is putting 937 into buffer
+Producer wants to put 10 items into buffer...
+Consumer is taking 923 out of buffer
+Producer is putting 938 into buffer
+Consumer is taking 924 out of buffer
+Producer is putting 939 into buffer
+Consumer is taking 925 out of buffer
+Producer is putting 940 into buffer
+Consumer is taking 926 out of buffer
+Producer is putting 941 into buffer
+Consumer is taking 927 out of buffer
+Producer is putting 942 into buffer
+Consumer is taking 928 out of buffer
+Consumer wants to get 1 items out of buffer...
+Producer is putting 943 into buffer
+Consumer is taking 929 out of buffer
+Consumer wants to get 6 items out of buffer...
+Producer is putting 944 into buffer
+Consumer is taking 930 out of buffer
+Producer is putting 945 into buffer
+Consumer is taking 931 out of buffer
+Producer is putting 946 into buffer
+Consumer is taking 932 out of buffer
+Producer is putting 947 into buffer
+Producer wants to put 2 items into buffer...
+Consumer is taking 933 out of buffer
+Producer is putting 948 into buffer
+Consumer is taking 934 out of buffer
+Producer is putting 949 into buffer
+Producer wants to put 9 items into buffer...
+Consumer is taking 935 out of buffer
+Consumer wants to get 9 items out of buffer...
+Producer is putting 950 into buffer
+Consumer is taking 936 out of buffer
+Producer is putting 951 into buffer
+Consumer is taking 937 out of buffer
+Producer is putting 952 into buffer
+Consumer is taking 938 out of buffer
+Producer is putting 953 into buffer
+Consumer is taking 939 out of buffer
+Producer is putting 954 into buffer
+Consumer is taking 940 out of buffer
+Producer is putting 955 into buffer
+Consumer is taking 941 out of buffer
+Producer is putting 956 into buffer
+Consumer is taking 942 out of buffer
+Producer is putting 957 into buffer
+Consumer is taking 943 out of buffer
+Producer is putting 958 into buffer
+Producer wants to put 7 items into buffer...
+Consumer is taking 944 out of buffer
+Consumer wants to get 7 items out of buffer...
+Producer is putting 959 into buffer
+Consumer is taking 945 out of buffer
+Producer is putting 960 into buffer
+Consumer is taking 946 out of buffer
+Producer is putting 961 into buffer
+Consumer is taking 947 out of buffer
+Producer is putting 962 into buffer
+Consumer is taking 948 out of buffer
+Producer is putting 963 into buffer
+Consumer is taking 949 out of buffer
+Producer is putting 964 into buffer
+Consumer is taking 950 out of buffer
+Producer is putting 965 into buffer
+Producer wants to put 10 items into buffer...
+Consumer is taking 951 out of buffer
+Consumer wants to get 4 items out of buffer...
+Producer is putting 966 into buffer
+Consumer is taking 952 out of buffer
+Producer is putting 967 into buffer
+Consumer is taking 953 out of buffer
+Producer is putting 968 into buffer
+Consumer is taking 954 out of buffer
+Producer is putting 969 into buffer
+Consumer is taking 955 out of buffer
+Consumer wants to get 12 items out of buffer...
+Producer is putting 970 into buffer
+Consumer is taking 956 out of buffer
+Producer is putting 971 into buffer
+Consumer is taking 957 out of buffer
+Producer is putting 972 into buffer
+Consumer is taking 958 out of buffer
+Producer is putting 973 into buffer
+Consumer is taking 959 out of buffer
+Producer is putting 974 into buffer
+Consumer is taking 960 out of buffer
+Producer is putting 975 into buffer
+Producer wants to put 3 items into buffer...
+Consumer is taking 961 out of buffer
+Producer is putting 976 into buffer
+Consumer is taking 962 out of buffer
+Producer is putting 977 into buffer
+Consumer is taking 963 out of buffer
+Producer is putting 978 into buffer
+Producer wants to put 8 items into buffer...
+Consumer is taking 964 out of buffer
+Producer is putting 979 into buffer
+Consumer is taking 965 out of buffer
+Producer is putting 980 into buffer
+Consumer is taking 966 out of buffer
+Producer is putting 981 into buffer
+Consumer is taking 967 out of buffer
+Consumer wants to get 3 items out of buffer...
+Producer is putting 982 into buffer
+Consumer is taking 968 out of buffer
+Producer is putting 983 into buffer
+Consumer is taking 969 out of buffer
+Producer is putting 984 into buffer
+Consumer is taking 970 out of buffer
+Consumer wants to get 1 items out of buffer...
+Producer is putting 985 into buffer
+Consumer is taking 971 out of buffer
+Consumer wants to get 7 items out of buffer...
+Producer is putting 986 into buffer
+Producer wants to put 13 items into buffer...
+Consumer is taking 972 out of buffer
+Producer is putting 987 into buffer
+Consumer is taking 973 out of buffer
+Producer is putting 988 into buffer
+Consumer is taking 974 out of buffer
+Producer is putting 989 into buffer
+Consumer is taking 975 out of buffer
+Producer is putting 990 into buffer
+Consumer is taking 976 out of buffer
+Producer is putting 991 into buffer
+Consumer is taking 977 out of buffer
+Producer is putting 992 into buffer
+Consumer is taking 978 out of buffer
+Consumer wants to get 3 items out of buffer...
+Producer is putting 993 into buffer
+Consumer is taking 979 out of buffer
+Producer is putting 994 into buffer
+Consumer is taking 980 out of buffer
+Producer is putting 995 into buffer
+Consumer is taking 981 out of buffer
+Consumer wants to get 14 items out of buffer...
+Producer is putting 996 into buffer
+Consumer is taking 982 out of buffer
+Producer is putting 997 into buffer
+Consumer is taking 983 out of buffer
+Producer is putting 998 into buffer
+Consumer is taking 984 out of buffer
+Producer is putting 999 into buffer

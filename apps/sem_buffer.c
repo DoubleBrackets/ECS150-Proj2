@@ -13,10 +13,11 @@
 #include <sem.h>
 #include <uthread.h>
 
-#define BUFFER_SIZE	16
-#define MAXCOUNT	1000
+#define BUFFER_SIZE 16
+#define MAXCOUNT 1000
 
-struct test4 {
+struct test4
+{
 	sem_t empty;
 	sem_t full;
 	sem_t mutex;
@@ -27,21 +28,24 @@ struct test4 {
 
 #define clamp(x, y) (((x) <= (y)) ? (x) : (y))
 
-static void consumer(void* arg)
+static void consumer(void *arg)
 {
-	struct test4 *t = (struct test4*)arg;
+	struct test4 *t = (struct test4 *)arg;
 	size_t out = 0;
 
-	while (out < t->maxcount - 1) {
+	while (out < t->maxcount - 1)
+	{
 		size_t i, n = rand_r(&t->cons_seed) % BUFFER_SIZE + 1;
 
 		n = clamp(n, t->maxcount - out - 1);
 		printf("Consumer wants to get %zu items out of buffer...\n", n);
-		for (i = 0; i < n; i++) {
+		for (i = 0; i < n; i++)
+		{
 			sem_down(t->empty);
 			out = t->buffer[t->tail];
 			printf("Consumer is taking %zu out of buffer\n", out);
 			t->tail = (t->tail + 1) % BUFFER_SIZE;
+			
 			sem_down(t->mutex);
 			t->size--;
 			sem_up(t->mutex);
@@ -50,23 +54,26 @@ static void consumer(void* arg)
 	}
 }
 
-static void producer(void* arg)
+static void producer(void *arg)
 {
-	struct test4 *t = (struct test4*)arg;
+	struct test4 *t = (struct test4 *)arg;
 	size_t count = 0;
 
 	uthread_create(consumer, arg);
 
-	while (count < t->maxcount) {
+	while (count < t->maxcount)
+	{
 		size_t i, n = rand_r(&t->prod_seed) % BUFFER_SIZE + 1;
 		n = clamp(n, t->maxcount - count);
 
 		printf("Producer wants to put %zu items into buffer...\n", n);
-		for (i = 0; i < n; i++) {
+		for (i = 0; i < n; i++)
+		{
 			sem_down(t->full);
 			printf("Producer is putting %zu into buffer\n", count);
 			t->buffer[t->head] = count++;
 			t->head = (t->head + 1) % BUFFER_SIZE;
+
 			sem_down(t->mutex);
 			t->size++;
 			sem_up(t->mutex);
@@ -78,7 +85,8 @@ static void producer(void* arg)
 static unsigned int get_argv(char *argv)
 {
 	long int ret = strtol(argv, NULL, 0);
-	if (ret == LONG_MIN || ret == LONG_MAX) {
+	if (ret == LONG_MIN || ret == LONG_MAX)
+	{
 		perror("strtol");
 		exit(1);
 	}
