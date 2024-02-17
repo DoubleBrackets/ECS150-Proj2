@@ -50,6 +50,11 @@ int sem_destroy(sem_t sem)
 
 int sem_down(sem_t sem)
 {
+	if (sem == NULL)
+	{
+		return -1;
+	}
+
 	if (sem->count == 0)
 	{
 		// printf("blocked\n");
@@ -61,10 +66,16 @@ int sem_down(sem_t sem)
 		sem->count--;
 	}
 	// printf("down to %d \n", sem->count);
+	return 0;
 }
 
 int sem_up(sem_t sem)
 {
+	if (sem == NULL)
+	{
+		return -1;
+	}
+
 	sem->count++;
 
 	// printf("up to %d \n", sem->count);
@@ -73,11 +84,13 @@ int sem_up(sem_t sem)
 	// make sure to decrement to prevent stealing before the scheduler runs
 	struct uthread_tcb *next_thread;
 
-	queue_dequeue(sem->wait_queue, &next_thread);
+	queue_dequeue(sem->wait_queue, (void **)&next_thread);
 
 	if (next_thread != NULL && sem->count > 0)
 	{
 		sem->count--;
 		uthread_unblock(next_thread);
 	}
+
+	return 0;
 }

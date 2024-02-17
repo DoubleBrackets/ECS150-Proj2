@@ -43,7 +43,6 @@ uthread_tcb *executing_thread;
 uthread_tcb *idle_thread;
 int id_count;
 
-/* TODO Phase 2/3 */
 struct uthread_tcb *uthread_current(void)
 {
 	return executing_thread;
@@ -89,11 +88,18 @@ int uthread_run(bool preempt, uthread_func_t func, void *arg)
 	next_thread->state = RUNNING;
 	executing_thread = next_thread;
 
+	// preemption
+	// preempt_start(preempt);
+
 	// Start execution of threads
+	printf("Before %d\n", next_thread == NULL);
 	uthread_ctx_switch(&idle_thread->uctx, &next_thread->uctx);
+	printf("After\n");
 
 	// Free remaining resources
 	free_globals();
+
+	// preempt_stop();
 
 	return 0;
 }
@@ -145,7 +151,7 @@ void uthread_yield(void)
 	// printf("The thread queue has %d threads\n", queue_length(ready_queue));
 	// queue_iterate(ready_queue, debug_print_tcb);
 
-	uthread_tcb *next_thread = NULL;
+	uthread_tcb *next_thread;
 
 	// Requeue thread we're yielding from
 	// If it's a zombie or blocked thread, make sure to leave the state untouched
