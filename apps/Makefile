@@ -78,10 +78,11 @@ clean: FORCE
 	$(Q)rm -rf $(objs) $(deps) $(programs)
 
 test:
-# valgrind --leak-check=yes ./uthread_yield.x
-# valgrind --leak-check=yes ./uthread_hello.x
-# ./queue_tester.x
-	valgrind --leak-check=yes ./sem_simple.x
+#	valgrind --leak-check=yes ./uthread_yield.x
+#	./queue_tester.x
+#	valgrind --leak-check=yes ./sem_simple.x
+#	valgrind --leak-check=yes ./sem_prime.x
+	valgrind --leak-check=yes ./test_preempt.x
 
 # Keep object files around
 .PRECIOUS: %.o

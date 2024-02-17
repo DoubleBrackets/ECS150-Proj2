@@ -24,6 +24,8 @@ void preempt_handler()
 	uthread_yield();
 }
 
+// Note: Enabling/disabling preemption only applies to the current thread context
+
 void preempt_disable(void)
 {
 	sigprocmask(SIG_BLOCK, block_alarm, NULL);

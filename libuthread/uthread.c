@@ -25,7 +25,6 @@ struct uthread_tcb
 	void *stack_pointer;
 	thread_state state;
 	uthread_ctx_t uctx;
-	int id;
 };
 
 typedef struct uthread_tcb uthread_tcb;
@@ -40,17 +39,10 @@ void free_thread(uthread_tcb *thread)
 queue_t ready_queue;
 uthread_tcb *executing_thread;
 uthread_tcb *idle_thread;
-int id_count;
 
 struct uthread_tcb *uthread_current(void)
 {
 	return executing_thread;
-}
-
-void free_globals()
-{
-	free(idle_thread);
-	queue_destroy(ready_queue);
 }
 
 int uthread_run(bool preempt, uthread_func_t func, void *arg)
@@ -62,14 +54,15 @@ int uthread_run(bool preempt, uthread_func_t func, void *arg)
 
 	if (idle_thread == NULL)
 	{
-		free_globals();
+		queue_destroy(ready_queue);
 		return -1;
 	}
 
 	// Create the initial thread
 	if (uthread_create(func, arg) == -1)
 	{
-		free_globals();
+		free(idle_thread);
+		queue_destroy(ready_queue);
 		return -1;
 	}
 
@@ -80,23 +73,27 @@ int uthread_run(bool preempt, uthread_func_t func, void *arg)
 	int status = queue_dequeue(ready_queue, (void **)&next_thread);
 	if (status == -1)
 	{
-		free_globals();
+		free(idle_thread);
+		queue_destroy(ready_queue);
 		return -1;
 	}
 
 	next_thread->state = RUNNING;
 	executing_thread = next_thread;
 
-	// preemption
 	preempt_start(preempt);
+
+	// Disable preemption in the idle thread
+	preempt_disable();
 
 	// Start execution of threads
 	uthread_ctx_switch(&idle_thread->uctx, &next_thread->uctx);
 
-	// Free remaining resources
-	free_globals();
-
 	preempt_stop();
+
+	// free remaining resourecs
+	free(idle_thread);
+	queue_destroy(ready_queue);
 
 	return 0;
 }
@@ -121,9 +118,9 @@ int uthread_create(uthread_func_t func, void *arg)
 	}
 
 	new_tcb->state = READY;
-	id_count++;
-	new_tcb->id = id_count;
 
+	// queueing and setting up thread context should be atomic
+	// being interrupted could result in a broken queue, or an uninitialized thread in the queue
 	preempt_disable();
 
 	// queue the new thread
@@ -147,6 +144,8 @@ int uthread_create(uthread_func_t func, void *arg)
 
 void uthread_yield(void)
 {
+	// Yielding threads should not be interrupted so that the next thread can be properly scheduled
+	// If it is interrupted, the thread it tries to schedule next could be wrong
 	preempt_disable();
 
 	uthread_tcb *next_thread;
@@ -180,6 +179,7 @@ void uthread_yield(void)
 			// The only valid thread is the one we just yielded from, so just continue execution
 			if (next_thread == executing_thread)
 			{
+				preempt_enable();
 				return;
 			}
 			// found a ready thread, move on to context switching to it
@@ -201,6 +201,8 @@ void uthread_yield(void)
 
 	// switch to the next thread to run
 	uthread_ctx_switch(&previous_thread->uctx, &next_thread->uctx);
+
+	preempt_enable();
 }
 
 void uthread_exit(void)

@@ -15,7 +15,6 @@ typedef struct semaphore semaphore;
 
 sem_t sem_create(size_t count)
 {
-
 	sem_t new_sem = malloc(sizeof(semaphore));
 
 	if (new_sem == NULL)
@@ -37,7 +36,6 @@ sem_t sem_create(size_t count)
 
 int sem_destroy(sem_t sem)
 {
-
 	if (sem == NULL || queue_length(sem->wait_queue) > 0)
 	{
 		return -1;
@@ -51,11 +49,12 @@ int sem_destroy(sem_t sem)
 
 int sem_down(sem_t sem)
 {
-
 	if (sem == NULL)
 	{
 		return -1;
 	}
+
+	preempt_disable();
 
 	if (sem->count == 0)
 	{
@@ -67,16 +66,19 @@ int sem_down(sem_t sem)
 		sem->count--;
 	}
 
+	preempt_enable();
+
 	return 0;
 }
 
 int sem_up(sem_t sem)
 {
-
 	if (sem == NULL)
 	{
 		return -1;
 	}
+
+	preempt_disable();
 
 	sem->count++;
 
@@ -91,6 +93,8 @@ int sem_up(sem_t sem)
 		sem->count--;
 		uthread_unblock(next_thread);
 	}
+
+	preempt_enable();
 
 	return 0;
 }

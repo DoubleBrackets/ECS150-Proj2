@@ -1,13 +1,14 @@
 /*
  * Preemption simple test
  *
- * Test preemption by having a thread never yield
+ * Test preemption by having a thread spin delay and attempt to starve the other thread
  *
  */
 
 #include <limits.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 
 #include <sem.h>
 #include <uthread.h>
@@ -29,9 +30,16 @@ static void thread1(void *arg)
 
 	uthread_create(thread2, NULL);
 
-	while (true)
+	for (int j = 0; j < 5; j++)
 	{
-		// hang
+		int dum;
+		for (int i = 0; i < 10000000; ++i)
+		{
+			// spin
+			dum = i;
+			dum++;
+		}
+		printf("Thread 1 %d\n", dum);
 	}
 }
 
