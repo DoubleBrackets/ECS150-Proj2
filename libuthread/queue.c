@@ -127,7 +127,7 @@ int queue_delete(queue_t queue, void *data)
 				next->prev_node = prev;
 			}
 
-			// update head or tail if deleted
+			// special case if deleted node is head or tail
 			if (queue->head == current)
 			{
 				queue->head = current->next_node;
@@ -161,7 +161,7 @@ int queue_iterate(queue_t queue, queue_func_t func)
 
 	while (current != NULL)
 	{
-		// We need to do this in case the function removes our current node
+		// Need to save in case the provided function removes our current node
 		node_t next = current->next_node;
 		func(queue, current->data);
 		current = next;

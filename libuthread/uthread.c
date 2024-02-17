@@ -36,7 +36,7 @@ void free_thread(uthread_tcb *thread)
 }
 
 // Use global state for the thread library (a bit like a singleton?)
-queue_t ready_queue;
+queue_t thread_queue;
 uthread_tcb *executing_thread;
 uthread_tcb *idle_thread;
 
@@ -47,14 +47,14 @@ struct uthread_tcb *uthread_current(void)
 
 int uthread_run(bool preempt, uthread_func_t func, void *arg)
 {
-	ready_queue = queue_create();
+	thread_queue = queue_create();
 
 	// register current thread as the "idle"
 	idle_thread = malloc(sizeof(uthread_tcb));
 
 	if (idle_thread == NULL)
 	{
-		queue_destroy(ready_queue);
+		queue_destroy(thread_queue);
 		return -1;
 	}
 
@@ -62,7 +62,7 @@ int uthread_run(bool preempt, uthread_func_t func, void *arg)
 	if (uthread_create(func, arg) == -1)
 	{
 		free(idle_thread);
-		queue_destroy(ready_queue);
+		queue_destroy(thread_queue);
 		return -1;
 	}
 
@@ -70,11 +70,11 @@ int uthread_run(bool preempt, uthread_func_t func, void *arg)
 
 	// Context switch to the init thread
 	// Special case since we're switching out of idle thread, which doesn't go in the queue
-	int status = queue_dequeue(ready_queue, (void **)&next_thread);
+	int status = queue_dequeue(thread_queue, (void **)&next_thread);
 	if (status == -1)
 	{
 		free(idle_thread);
-		queue_destroy(ready_queue);
+		queue_destroy(thread_queue);
 		return -1;
 	}
 
@@ -93,7 +93,7 @@ int uthread_run(bool preempt, uthread_func_t func, void *arg)
 
 	// free remaining resourecs
 	free(idle_thread);
-	queue_destroy(ready_queue);
+	queue_destroy(thread_queue);
 
 	return 0;
 }
@@ -124,7 +124,7 @@ int uthread_create(uthread_func_t func, void *arg)
 	preempt_disable();
 
 	// queue the new thread
-	if (queue_enqueue(ready_queue, new_tcb) == -1)
+	if (queue_enqueue(thread_queue, new_tcb) == -1)
 	{
 		free_thread(new_tcb);
 		return -1;
@@ -157,12 +157,12 @@ void uthread_yield(void)
 	{
 		executing_thread->state = READY;
 	}
-	queue_enqueue(ready_queue, executing_thread);
+	queue_enqueue(thread_queue, executing_thread);
 
-	int len = queue_length(ready_queue);
+	int len = queue_length(thread_queue);
 	for (int i = 0; i < len; i++)
 	{
-		queue_dequeue(ready_queue, (void **)&next_thread);
+		queue_dequeue(thread_queue, (void **)&next_thread);
 
 		// Zombie thread, collect
 		if (next_thread->state == EXITED)
@@ -172,7 +172,7 @@ void uthread_yield(void)
 		else if (next_thread->state == BLOCKED)
 		{
 			// cycle to back of the queue
-			queue_enqueue(ready_queue, next_thread);
+			queue_enqueue(thread_queue, next_thread);
 		}
 		else
 		{
@@ -188,7 +188,7 @@ void uthread_yield(void)
 	}
 
 	// No threads remaining in the queue, return to idle thread to finish
-	if (queue_length(ready_queue) == 0)
+	if (queue_length(thread_queue) == 0)
 	{
 		uthread_ctx_switch(&executing_thread->uctx, &idle_thread->uctx);
 	}
