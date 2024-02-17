@@ -19,7 +19,6 @@
 void thread3(void *arg)
 {
 	(void)arg;
-	printf("entered thread3\n");
 
 	uthread_yield();
 	printf("thread3\n");
@@ -28,7 +27,6 @@ void thread3(void *arg)
 void thread2(void *arg)
 {
 	(void)arg;
-	printf("entered thread2\n");
 
 	uthread_create(thread3, NULL);
 	uthread_yield();
@@ -38,7 +36,6 @@ void thread2(void *arg)
 void thread1(void *arg)
 {
 	(void)arg;
-	printf("entered thread1\n");
 
 	uthread_create(thread2, NULL);
 	uthread_yield();
